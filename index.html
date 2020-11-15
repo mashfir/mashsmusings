@@ -3,31 +3,100 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of mashsmusings</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
+    <title>Mash's Musings</title>
     <link href="./style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
-    <h1>Welcome to my Website!</h1>
+    <h3>
+      <div style="width: 50%; text-align: left">
+        <a href="/">Mash's Musings</a>
+      </div>
+    </h3>
 
-    <p>This is a paragraph! Here's how you make a link: <a href="https://neocities.org">Neocities</a>.</p>
+    <hr>
 
-    <p>Here's how you can make <strong>bold</strong> and <em>italic</em> text.</p>
+    <div id="post">
+      <h1>
+        Don't know thyself
+      </h1>
+      <h4>
+        Published Nov. 15, 2020
+      </h4>
+      <div>
+        <p>
+        When discussing the topic of change or trying something new, I often hear the refrain, “I know myself, I wouldn't like X” or, “I'm not a Y person”. And while there is much wisdom and value in the old aphorism of “know thyself”, I think we would all stand to benefit by knowing ourselves a little less.
+        </p>
+        <p>
+        As Yuval Noah Harari summarizes in Sapiens, humankind has been driven by shared, often subconscious, narratives. And while these narratives have enabled us to send people to the Moon, they have also served as the backbone of every bloody war. And while it can be easy to unsubscribe from shared narratives, it's important to realize that there are a great many <em>internal</em> narratives we carry as well. And similarly, our internal narratives can bring out the best and the worst in us.
+        </p>
+        For example, throughout most of my life I had a crystal clear, staunch understanding—nay a <em>fact</em>!— about myself, that I was not “a morning person”. What exactly “a morning person” was I did not know but I was certain that my 4:00 am – 12:00 pm sleep schedule in university certainly disqualified me from consideration. Fast-forward a couple years and after being in a situation in which I could enjoy a nice hot breakfast and flat white only if I woke up before 6:30 am (early birds do get the worms after all), I decided that the alone time and free meal were worth an earlier alarm. Seemingly overnight, I started to hear all my coworkers say how <em>they</em> could never do the same because they were not morning people. How could this be when I was not a morning person either? What had changed? All I had done was tap my phone a couple times to dial my alarm back.
+        <p>
+        Simply put, I just let go of a narrative. I learned that my “I'm not a morning person” narrative was as bogus as my childhood “I'm a boy and boys like cars” narrative. What took precedence was the narrative of “Of course I can do this”, a less confining and yet equally self-fulfilling mantra. And loosening this rigid sense of identity has led to so many (generally positive) changes that I'm left considering the ship of Theseus and how illusory this whole identity thing was to start with.
+        </p>
+        <p>
+        So next time you're faced with a positive change that seems way out of character, don't “know thyself”. Take a second to think of whether the change aligns with who you <em>want to be</em> instead of who you <em>are</em>. And then simply try. You'll inevitably wake up at 1:00 pm on a weekend but that's okay. Drop the “I'm failure” story and just try again tomorrow. You'll be surprised at who you can be when you stop trying to be who you are.
+        </p>
+      </div>
+    </div>
 
-    <p>Here's how you can add an image:</p>
-    <img src="./neocities.png">
+    <hr>
 
-    <p>Here's how to make a list:</p>
+    <div id="post">
+      <h1>
+        Demystifying the logistic regression equation
+      </h1>
+      <h4>
+        Published Oct. 1, 2020
+      </h4>
+      <div>
+        <p>
+        After thinking about the whole logistic regression thing for a while, I was confused how we got to the magic e^x function considering our goal was merely to go from a crude linear approximation of a probability to a meaningful probability bounded between 0 and 1. While there are infinitely many ways to get there, here are a few arguably simpler examples I came up with to also achieve the same outcome. Notably, I was curious why we do we not use the x/abs(x) version when that gives us a much crisper binary outcome?[0]
+        </p>
+        <p>
+        The problem breaks down into answering the following:
+        </p>
+        <ol>
+          <li>How can we make sure our output is positive?</li>
+          <li>And how can we make sure our output is bounded at 1?</li>
+        </ol>
+        <p>
+          But thinking about this, we can see that there are infinitely many ways to do this. So again, why an exponential?
+        </p>
+        <p>
+          I can come up with intuitions that help us understand why we use the equation we use[1]:
+An exponential reflects the idea that an increase in X result in an increase in p(X) and a decrease in X results in a decrease in p(X). In other words, a negative coefficient means a decrease in probability and vice versa.[2] 
+        </p>
+        <p>
+          Exponentials? :check:  Lines? :check: Squares? :x: Absolute? :x:
+        </p>
+        <p>
+          An exponential, by definition, reflects the idea that the effect a step change in X has on p(X) depends on our current value of X.[3] In other words, if we’re considering the effect of income on probability of default, it matters whether we are going from an income of $0k–$10k vs $200k–$210k.
+        </p>
+        <p>
+          Exponentials? :check:  Lines? :x: Squares? :check:  Absolute? :x:
+        </p>
+        <p>
+          And what about the +1 in the denominator? We could have used any number > 0. It seems 1 is just a convenient choice to help give meaning to p(X) / (1-p(X)). We could just as correctly use +2 or +3, but then we would just be carrying around a factor of 2 or 3. So we just pick +1 arbitrarily to make things simpler.
+        </p>
+        <p>
+          Hopefully these ramblings kind of help understand the seemingly magical appearance of e^x in this application. As with a lot of other statistical applications, the formula chosen is due to thoughtful convenience and not an absolute truth.
+        </p>
+      </div>
+      <div>
+        <p>
+          [0] You can just as legitimately use x/abs(x) to create your own binary classifier.
+        </p>
+        <p>
+          [1] These may not be the actual reasons why this equation was chosen…
+        </p>
+        <p>
+          [2] I guess this really just means that we want dy/dx > 0 for all x?
+        </p>
+        <p>
+          [3] I guess this really just means that we want d^2y/dx^2 ≠ 0?
+        </p>
+      </div>
+    </div>
 
-    <ul>
-      <li>First thing</li>
-      <li>Second thing</li>
-      <li>Third thing</li>
-      <li>Fourth thing</li>
-    </ul>
-
-    <p>To learn more HTML/CSS, check out these <a href="https://neocities.org/tutorials">tutorials</a>!</p>
   </body>
 </html>
