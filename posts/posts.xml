@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<posts>
+  <post>
+    <title>Don't Know Thyself</title>
+    <date>2020-11-15</date>
+    <link>posts/dont-know-thyself.html</link>
+  </post>
+  <post>
+    <title>Demystifying the Logistic Regression Equation</title>
+    <date>2020-10-01</date>
+    <link>posts/demystifying-the-logistic-regression-equation.html</link>
+  </post>
+</posts>
