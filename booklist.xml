@@ -1,0 +1,606 @@
+<booklist>
+  
+  <book>
+    <title>How to Read a Book</title>
+    <author>Mortimer J. Adler, Charles Van Doren</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Getting Things Done</title>
+    <author>David Allen</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Selfish Gene</title>
+    <author>Richard Dawkins</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Seeking Wisdom</title>
+    <author>Peter Bevelin</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>How to Win Friends and Influence People</title>
+    <author>Dale Carnegie</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Age of Ambition</title>
+    <author>Evan Osnos</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Sapiens</title>
+    <author>Yuval Noah Harari</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Homo Deus</title>
+    <author>Yuval Noah Harari</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The True Believer</title>
+    <author>Eric Hoffer</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Zero to One</title>
+    <author>Peter Thiel</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Lean Startup</title>
+    <author>Eric Ries</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Fooled by Randomness</title>
+    <author>Nassim Nicholas Taleb</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Antifragile</title>
+    <author>Nassim Nicholas Taleb</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>The Black Swan</title>
+    <author>Nassim Nicholas Taleb</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Misbehaving</title>
+    <author>Richard Thaler</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Prince</title>
+    <author>Niccolo Machiavelli</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Digital Minimalism</title>
+    <author>Cal Newport</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Deep Work</title>
+    <author>Cal Newport</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Pyramid Principle</title>
+    <author>Barbara Minto</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Thinking, Fast and Slow</title>
+    <author>Daniel Kahneman</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Why We Sleep</title>
+    <author>Matthew Walker</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Wealth of Nations</title>
+    <author>Adam Smith</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Zen and the Art of Motorcycle Maintenance</title>
+    <author>Robert M. Pirsig</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>On the Origin of Species</title>
+    <author>Charles Darwin</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>An American Sickness</title>
+    <author>Elizabeth Rosenthal</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Our Mathematical Universe</title>
+    <author>Max Tegmark</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Never Split the Difference</title>
+    <author>Chris Voss</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Principles</title>
+    <author>Ray Dalio</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Lifespan</title>
+    <author>David Sinclair</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Walden</title>
+    <author>Henry David Thoreau</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Meditations</title>
+    <author>Marcus Aurelius</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Das Kapital</title>
+    <author>Karl Marx</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Communist Manifesto</title>
+    <author>Karl Marx</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Committed</title>
+    <author>Elizabeth Gilbert</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Rationality: From AI to Zombies</title>
+    <author>Eliezer Yudkowsky</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>4-Hour Workweek</title>
+    <author>Tim Ferriss</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Almanack of Naval Ravikant</title>
+    <author>Eric Jorgensen</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Poor Richard's Almanack</title>
+    <author>Benjamin Franklin</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Poor Charlie's Almanack</title>
+    <author>Peter D. Kaufman</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Crime and Punishment</title>
+    <author>Fyodor Dostoevsky</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Kite Runner</title>
+    <author>Khaled Hosseini</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Lord of the Flies</title>
+    <author>William Golding</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Animal Farm</title>
+    <author>George Orwell</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>1984</title>
+    <author>George Orwell</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Hitchhiker's Guide to the Galaxy</title>
+    <author>Douglas Adams</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Restaurant at the End of the Universe</title>
+    <author>Douglas Adams</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Great Gatsby</title>
+    <author>F. Scott Fitzgerald</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Lolita</title>
+    <author>Vladimir Nabokov</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Catcher in the Rye</title>
+    <author>J. D. Salinger</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Catch-22</title>
+    <author>Joseph Heller</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Love in the Time of Cholera</title>
+    <author>Gabriel Garcia Marquez</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>The Picture of Dorian Gray</title>
+    <author>Oscar Wilde</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Farenheit 451</title>
+    <author>Ray Bradbury</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Slaughterhouse-Five</title>
+    <author>Kurt Vonnegut</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>War and Peace</title>
+    <author>Leo Tolstoy</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Anna Karenina</title>
+    <author>Leo Tolstoy</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>The Gulag Archipelago</title>
+    <author>Aleksandr Solzhenitsyn</author>
+    <category>nonfiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Cancer Ward</title>
+    <author>Aleksandr Solzhenitsyn</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Of Mice and Men</title>
+    <author>John Steinbeck</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Oliver Twist</title>
+    <author>Charles Dickens</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>A Tale of Two Cities</title>
+    <author>Charles Dickens</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>The Brothers Karamazov</title>
+    <author>Fyodor Dostoevsky</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>The Alchemist</title>
+    <author>Paolo Coelho</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>The Curious Incident of the Dog in the Night-Time</title>
+    <author>Mark Haddon</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>The Course of Love</title>
+    <author>Alain de Botton</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Frankenstein</title>
+    <author>Mary Shelley</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Fountainhead</title>
+    <author>Ayn Rand</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Atlas Shrugged</title>
+    <author>Ayn Rand</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>A Connecticut Yankee in King Arthur's Court</title>
+    <author>Mark Twain</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Moby Dick</title>
+    <author>Herman Melville</author>
+    <category>fiction</category>
+    <completed></completed>
+  </book>
+
+  <book>
+    <title>Brave New World</title>
+    <author>Aldous Huxley</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Odyssey</title>
+    <author>Homer</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Iliad</title>
+    <author>Homer</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>A Fine Balance</title>
+    <author>Rohinton Mistry</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Heart of Darkness</title>
+    <author>Joseph Conrad</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Room</title>
+    <author>Emma Donoghue</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Wuthering Heights</title>
+    <author>Emily Bronte</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Don Quixote</title>
+    <author>Miguel de Cervantes</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Hunt for Red October</title>
+    <author>Tom Clancy</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Flowers for Algernon</title>
+    <author>Daniel Keyes</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>V for Vendetta</title>
+    <author>Alan Moore</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Sandman</title>
+    <author>Neil Gaiman</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Macbeth</title>
+    <author>William Shakespeare</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>King Lear</title>
+    <author>William Shakespeare</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Taming of the Shrew</title>
+    <author>William Shakespeare</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Romeo and Juliet</title>
+    <author>William Shakespeare</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+</booklist>
+

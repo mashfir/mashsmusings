@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book list</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body>
+    <h3>
+      <div style="width: 50%; text-align: left">
+        <a href="/">Mash's Musings</a>
+      </div>
+    </h3>
+
+    <hr>
+
+    <div id="preamble">
+      <p>
+        Having shared booklists with a few people through the inconvenient method of copy-pasting from my to-do app, I figured it easiest to just dump everything I've read here for now. Feel free to reach out to discuss anything that you find interesting.
+      </p>
+    </div>
+
+    <h4>Nonfiction</h4>
+    <div id="nonfiction">
+    </div>
+
+    <h4>Fiction</h4>
+    <div id="fiction">
+    </div>
+
+    <script>
+      loadDoc("/booklist.xml", getBooks);
+
+      function loadDoc(url, cFunction) {
+              var xhttp;
+              xhttp=new XMLHttpRequest();
+              xhttp.onreadystatechange = function() {
+                      if (this.readyState == 4 && this.status == 200) {
+                              cFunction(this);
+                            }
+                    };
+              xhttp.open("GET", url, true);
+              xhttp.send();
+            }
+
+      function getBooks(xhttp) {
+              var xmlDoc = xhttp.responseXML;
+              var books = xmlDoc.getElementsByTagName("book");
+              var fiction, nonfiction = "<ul>\n";
+
+              for (i = 0; i < books.length; i++) {
+                      var read = books[i].getElementsByTagName("completed")[0].childNodes[0];
+                      var title = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
+                      var author = books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
+                      var category = books[i].getElementsByTagName("category")[0].childNodes[0].nodeValue;
+
+                      if (typeof read !== "undefined") {
+                              console.log(read);
+                              console.log(author);
+                              console.log(title);
+                              if (category === "fiction") {
+                                      fiction += "<li><em>" + title + "</em>. " + author + ". </li>\n";
+                                    }
+                              else {
+                                      nonfiction += "<li><em>" + title + "</em>. " + author + ". </li>\n";
+                                    }
+                            }
+                    }
+
+              fiction += "</ul>";
+              nonfiction += "</ul>";
+              document.getElementById("fiction").innerHTML = fiction;
+              document.getElementById("nonfiction").innerHTML = nonfiction;
+            }
+
+    </script>
+
+  </body>
+</html>
