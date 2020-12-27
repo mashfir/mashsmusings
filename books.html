@@ -15,6 +15,10 @@
 
     <hr>
 
+    <h4>
+      Updated Dec. 26, 2020
+    </h4>
+
     <div id="preamble">
       <p>
         Having shared booklists with a few people through the inconvenient method of copy-pasting from my to-do app, I figured it easiest to just dump everything I've read here for now. Feel free to reach out to discuss anything that you find interesting.
@@ -50,15 +54,12 @@
               var fiction, nonfiction = "<ul>\n";
 
               for (i = 0; i < books.length; i++) {
-                      var read = books[i].getElementsByTagName("completed")[0].childNodes[0];
+                      var completed = books[i].getElementsByTagName("completed")[0].childNodes[0].nodeValue;
                       var title = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
                       var author = books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
                       var category = books[i].getElementsByTagName("category")[0].childNodes[0].nodeValue;
 
-                      if (typeof read !== "undefined") {
-                              console.log(read);
-                              console.log(author);
-                              console.log(title);
+                      if (completed === "true") {
                               if (category === "fiction") {
                                       fiction += "<li><em>" + title + "</em>. " + author + ". </li>\n";
                                     }

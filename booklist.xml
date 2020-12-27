@@ -18,28 +18,28 @@
     <title>The Selfish Gene</title>
     <author>Richard Dawkins</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Seeking Wisdom</title>
     <author>Peter Bevelin</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>How to Win Friends and Influence People</title>
     <author>Dale Carnegie</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Age of Ambition</title>
     <author>Evan Osnos</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -81,14 +81,14 @@
     <title>Fooled by Randomness</title>
     <author>Nassim Nicholas Taleb</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Antifragile</title>
     <author>Nassim Nicholas Taleb</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -109,7 +109,7 @@
     <title>The Prince</title>
     <author>Niccolo Machiavelli</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -130,7 +130,7 @@
     <title>The Pyramid Principle</title>
     <author>Barbara Minto</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -165,7 +165,7 @@
     <title>On the Origin of Species</title>
     <author>Charles Darwin</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -207,21 +207,21 @@
     <title>Walden</title>
     <author>Henry David Thoreau</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Meditations</title>
     <author>Marcus Aurelius</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Das Kapital</title>
     <author>Karl Marx</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -242,14 +242,14 @@
     <title>Rationality: From AI to Zombies</title>
     <author>Eliezer Yudkowsky</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>4-Hour Workweek</title>
     <author>Tim Ferriss</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -263,14 +263,14 @@
     <title>Poor Richard's Almanack</title>
     <author>Benjamin Franklin</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Poor Charlie's Almanack</title>
     <author>Peter D. Kaufman</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -347,21 +347,21 @@
     <title>Catch-22</title>
     <author>Joseph Heller</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Love in the Time of Cholera</title>
     <author>Gabriel Garcia Marquez</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>The Picture of Dorian Gray</title>
     <author>Oscar Wilde</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -382,70 +382,70 @@
     <title>War and Peace</title>
     <author>Leo Tolstoy</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Anna Karenina</title>
     <author>Leo Tolstoy</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>The Gulag Archipelago</title>
     <author>Aleksandr Solzhenitsyn</author>
     <category>nonfiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Cancer Ward</title>
     <author>Aleksandr Solzhenitsyn</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Of Mice and Men</title>
     <author>John Steinbeck</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Oliver Twist</title>
     <author>Charles Dickens</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>A Tale of Two Cities</title>
     <author>Charles Dickens</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>The Brothers Karamazov</title>
     <author>Fyodor Dostoevsky</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>The Alchemist</title>
     <author>Paolo Coelho</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>The Curious Incident of the Dog in the Night-Time</title>
     <author>Mark Haddon</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
@@ -473,21 +473,21 @@
     <title>Atlas Shrugged</title>
     <author>Ayn Rand</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>A Connecticut Yankee in King Arthur's Court</title>
     <author>Mark Twain</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
     <title>Moby Dick</title>
     <author>Herman Melville</author>
     <category>fiction</category>
-    <completed></completed>
+    <completed>false</completed>
   </book>
 
   <book>
