@@ -51,7 +51,8 @@
       function getBooks(xhttp) {
               var xmlDoc = xhttp.responseXML;
               var books = xmlDoc.getElementsByTagName("book");
-              var fiction, nonfiction = "<ul>\n";
+              var fiction = "<ul>\n";
+              var nonfiction = "<ul>\n";
 
               for (i = 0; i < books.length; i++) {
                       var completed = books[i].getElementsByTagName("completed")[0].childNodes[0].nodeValue;
