@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mash's Musings</title>
-    <link href="./style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
 
@@ -14,13 +14,13 @@
 
       <ul class="topnav">
         <li><a href="/">Musings</a></li>
-        <li><a href="/books.html">Readings</a></li>
+        <li><a href="/books">Readings</a></li>
       </ul>
 
     </div>
 
     <script>
-      loadDoc("posts/posts.xml", getLinks);
+      loadDoc("/posts/posts.xml", getLinks);
 
       function loadDoc(url, cFunction) {
         var xhttp;
