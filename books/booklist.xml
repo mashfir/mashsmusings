@@ -29,6 +29,34 @@
   </book>
 
   <book>
+    <title>Atomic Habits</title>
+    <author>James Clear</author>
+    <category>nonfiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
+    <title>The Dream Machine</title>
+    <author>Mitchell Waldrop</author>
+    <category>nonfiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
+    <title>The Art of Doing Science and Engineering</title>
+    <author>Richard W. Hamming</author>
+    <category>nonfiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
+    <title>Stubborn Attachments</title>
+    <author>Tyler Cowen</author>
+    <category>nonfiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
     <title>How to Win Friends and Influence People</title>
     <author>Dale Carnegie</author>
     <category>nonfiction</category>
@@ -52,6 +80,20 @@
   <book>
     <title>Homo Deus</title>
     <author>Yuval Noah Harari</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Gödel, Escher, Bach</title>
+    <author>Douglas Hofstader</author>
+    <category>nonfiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
+    <title>Winston Churchill</title>
+    <author>John Keegan</author>
     <category>nonfiction</category>
     <completed>true</completed>
   </book>
@@ -435,6 +477,20 @@
   </book>
 
   <book>
+    <title>The Castle</title>
+    <author>Franz Kafka</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Trial</title>
+    <author>Franz Kafka</author>
+    <category>fiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
     <title>The Alchemist</title>
     <author>Paolo Coelho</author>
     <category>fiction</category>
@@ -572,6 +628,27 @@
     <author>Neil Gaiman</author>
     <category>fiction</category>
     <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Agamemnon</title>
+    <author>Aeschylus</author>
+    <category>fiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>The Libation Bearers</title>
+    <author>Aeschylus</author>
+    <category>fiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
+    <title>Eumenides</title>
+    <author>Aeschylus</author>
+    <category>fiction</category>
+    <completed>false</completed>
   </book>
 
   <book>
