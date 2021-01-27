@@ -32,7 +32,7 @@
     <title>Atomic Habits</title>
     <author>James Clear</author>
     <category>nonfiction</category>
-    <completed>false</completed>
+    <completed>true</completed>
   </book>
 
   <book>
@@ -108,6 +108,13 @@
   <book>
     <title>Zero to One</title>
     <author>Peter Thiel</author>
+    <category>nonfiction</category>
+    <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Measure What Matters</title>
+    <author>John Doerr</author>
     <category>nonfiction</category>
     <completed>true</completed>
   </book>
@@ -253,6 +260,13 @@
   </book>
 
   <book>
+    <title>Payments Systems in the U.S.</title>
+    <author>Carol Coye Benson</author>
+    <category>nonfiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
     <title>Meditations</title>
     <author>Marcus Aurelius</author>
     <category>nonfiction</category>
@@ -312,7 +326,7 @@
     <title>Poor Charlie's Almanack</title>
     <author>Peter D. Kaufman</author>
     <category>nonfiction</category>
-    <completed>false</completed>
+    <completed>true</completed>
   </book>
 
   <book>
@@ -396,7 +410,7 @@
     <title>Love in the Time of Cholera</title>
     <author>Gabriel Garcia Marquez</author>
     <category>fiction</category>
-    <completed>false</completed>
+    <completed>true</completed>
   </book>
 
   <book>
@@ -487,7 +501,7 @@
     <title>The Trial</title>
     <author>Franz Kafka</author>
     <category>fiction</category>
-    <completed>false</completed>
+    <completed>true</completed>
   </book>
 
   <book>
@@ -568,6 +582,13 @@
   </book>
 
   <book>
+    <title>Metamorphoses</title>
+    <author>Ovid</author>
+    <category>fiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
     <title>A Fine Balance</title>
     <author>Rohinton Mistry</author>
     <category>fiction</category>
@@ -607,6 +628,13 @@
     <author>Tom Clancy</author>
     <category>fiction</category>
     <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Paradise Lost</title>
+    <author>John Milton</author>
+    <category>fiction</category>
+    <completed>false</completed>
   </book>
 
   <book>
