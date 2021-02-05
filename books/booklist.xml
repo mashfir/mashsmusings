@@ -270,7 +270,7 @@
     <title>Meditations</title>
     <author>Marcus Aurelius</author>
     <category>nonfiction</category>
-    <completed>false</completed>
+    <completed>true</completed>
   </book>
 
   <book>
@@ -403,7 +403,7 @@
     <title>Catch-22</title>
     <author>Joseph Heller</author>
     <category>fiction</category>
-    <completed>false</completed>
+    <completed>true</completed>
   </book>
 
   <book>
