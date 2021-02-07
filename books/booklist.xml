@@ -46,7 +46,7 @@
     <title>The Art of Doing Science and Engineering</title>
     <author>Richard W. Hamming</author>
     <category>nonfiction</category>
-    <completed>false</completed>
+    <completed>true</completed>
   </book>
 
   <book>
@@ -197,6 +197,13 @@
   </book>
 
   <book>
+    <title>Leviathan</title>
+    <author>Thomas Hobbes</author>
+    <category>nonfiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
     <title>The Wealth of Nations</title>
     <author>Adam Smith</author>
     <category>nonfiction</category>
@@ -267,10 +274,31 @@
   </book>
 
   <book>
+    <title>Mahabharata</title>
+    <author>Vyasa</author>
+    <category>fiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
+    <title>Tao Te Ching</title>
+    <author>Laozi</author>
+    <category>nonfiction</category>
+    <completed>false</completed>
+  </book>
+
+  <book>
     <title>Meditations</title>
     <author>Marcus Aurelius</author>
     <category>nonfiction</category>
     <completed>true</completed>
+  </book>
+
+  <book>
+    <title>Capital in the Twenty-First Century</title>
+    <author>Thomas Piketty</author>
+    <category>nonfiction</category>
+    <completed>false</completed>
   </book>
 
   <book>
