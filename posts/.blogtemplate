@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>%s</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all"/>
+  </head>
+  <body>
+    <div id="heading">
+      <h3>Mash's Musings</h3>
+      <ul class="topnav">
+        <li><a href="/">Musings</a></li>
+        <li><a href="/books">Readings</a></li>
+      </ul>
+    </div>
+    <hr/>
+    <div id="post">
+      <h1>
+        <a href="/posts/%s">%s</a>
+      </h1>
+      <h4>Published %s</h4>
+      %s
+    </div>
+  </body>
+</html>
+

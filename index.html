@@ -1,58 +1,226 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mash's Musings</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   <body>
-
     <div id="heading">
-
       <h3>Mash's Musings</h3>
 
       <ul class="topnav">
         <li><a href="/">Musings</a></li>
         <li><a href="/books">Readings</a></li>
       </ul>
-
     </div>
 
-    <script>
-      loadDoc("/posts/posts.xml", getLinks);
+    <!-- LB -->
+    <hr />
+    <div class="post">
+      <h1><a href="/posts/cafe-privacy.html">Cafe privacy</a></h1>
+      <h4>Published Jan. 10, 2021</h4>
+      <div>
+        <p>
+          You ease into your booth for a cup of coffee with friends. It took a
+          bit of convincing to get people to switch cafes but you’re finally
+          here: WhatsCup. You’re aware of all the cameras overhead watching your
+          every move and you know it’s still owned by Facebucks, the same parent
+          company as the last cafe, but hey, at least the cameras here are
+          closed-circuit and there are no hidden microphones at the tables. It’s
+          to help serve you better you’re reassured.
+        </p>
 
-      function loadDoc(url, cFunction) {
-        var xhttp;
-        xhttp=new XMLHttpRequest();
-        xhttp.onreadystatechange = function() {
-          if (this.readyState == 4 && this.status == 200) {
-            cFunction(this);
-          }
-        };
-        xhttp.open("GET", url, true);
-        xhttp.send();
-      }
+        <p>
+          “Another iced WhatsFrapp with the whip cream on the side?”, the
+          barista asks.
+        </p>
 
-      function getLinks(xhttp) {
-              var txt = "";
-              var xmlDoc = xhttp.responseXML;
-              var links = xmlDoc.getElementsByTagName("link");
-              for (i = 0; i < links.length; i++) {
-                      loadDoc(links[i].childNodes[0].nodeValue, parsePost);
-                    }
-            }
+        <p>
+          You nod suspiciously; they’ve been tracking your purchases. But hey,
+          it makes for more personalized service and at least there are no god
+          damn mics at the table.
+        </p>
 
-      function parsePost(xhttp) {
-              var htmlDoc, post;
-              var parser = new DOMParser();
-              htmlDoc = parser.parseFromString(xhttp.responseText, "text/html");
-              post = htmlDoc.getElementById("post");
-              document.body.appendChild(document.createElement("HR"));
-              document.body.appendChild(post);
-            }
+        <p>
+          A few months pass and you catch a glimpse of
+          <a
+            href="https://www.whatsapp.com/legal/updates/privacy-policy/"
+            target="_blank"
+            >a new notice</a
+          >
+          by the entrance. Starting next month, all the footage and data will be
+          shared with the rest of Facebucks. Who you talk to, when you visit,
+          what you ordered — everything is now shared. There's no mention of an
+          opt out. And what about the armies of third-parties Facebucks is
+          affiliated with? You have to squint to read the fine print. It’s all
+          shared with third parties as well. All to help serve you better you’re
+          reassured. “Your privacy is our priority” it states boldly.
+        </p>
 
-    </script>
+        <p>
+          “Didn’t I say no to this a few years back? What about the the sign
+          reading ‘<a href="https://www.whatsapp.com/privacy/" target="_blank"
+            >You control your privacy</a
+          >’?”, you ask.
+        </p>
 
+        <p>
+          You think you hear the camera overhead zoom in a little but you’re not
+          sure.
+        </p>
+
+        <p>
+          “Management”, the barista shrugs apologetically, “Can I get you
+          another iced WhatsFrapp?”
+        </p>
+
+        <p>
+          You look down the street at
+          <a href="https://signal.org" target="_blank">Sig & Nal’s</a>. It’s a
+          nonprofit with a 4.8 star rating and prides itself on just serving you
+          and your friends coffee by donation; no cameras, no tracking. They
+          even have the building plans available for anyone to verify.
+        </p>
+
+        <p>
+          You look back at your friends settling into the usual booth, unfazed,
+          and the sea of cameras silently watching overhead. What do you do?
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="post">
+      <h1><a href="/posts/dont-know-thyself.html">Don't know thyself</a></h1>
+      <h4>Published Nov. 15, 2020</h4>
+      <div>
+        <p>
+          When discussing the topic of change or trying something new, I often
+          hear the refrain, “I know myself, I wouldn't like X” or, “I'm not a Y
+          person”. And while there is much wisdom and value in the old aphorism
+          of “know thyself”, I think we would all stand to benefit by knowing
+          ourselves a little less.
+        </p>
+        <p>
+          As Yuval Noah Harari summarizes in Sapiens, humankind has been driven
+          by shared, often subconscious, narratives. And while these narratives
+          have enabled us to send people to the Moon, they have also served as
+          the backbone of every bloody war. And while it can be easy to
+          unsubscribe from shared narratives, it's important to realize that
+          there are a great many <em>internal</em> narratives we carry as well.
+          And similarly, our internal narratives can bring out the best and the
+          worst in us.
+        </p>
+        For example, throughout most of my life I had a crystal clear, staunch
+        understanding—nay a <em>fact</em>!— about myself, that I was not “a
+        morning person”. What exactly “a morning person” was I did not know but
+        I was certain that my 4:00 am – 12:00 pm sleep schedule in university
+        certainly disqualified me from consideration. Fast-forward a couple
+        years and after being in a situation in which I could enjoy a nice hot
+        breakfast and flat white only if I woke up before 6:30 am (early birds
+        do get the worms after all), I decided that the alone time and free meal
+        were worth an earlier alarm. Seemingly overnight, I started to hear all
+        my coworkers say how <em>they</em> could never do the same because they
+        were not morning people. How could this be when I was not a morning
+        person either? What had changed? All I had done was tap my phone a
+        couple times to dial my alarm back.
+        <p>
+          Simply put, I just let go of a narrative. I learned that my “I'm not a
+          morning person” narrative was as bogus as my childhood “I'm a boy and
+          boys like cars” narrative. What took precedence was the narrative of
+          “Of course I can do this”, a less confining and yet equally
+          self-fulfilling mantra. And loosening this rigid sense of identity has
+          led to so many (generally positive) changes that I'm left considering
+          the ship of Theseus and how illusory this whole identity thing was to
+          start with.
+        </p>
+        <p>
+          So next time you're faced with a positive change that seems way out of
+          character, don't “know thyself”. Take a second to think of whether the
+          change aligns with who you <em>want to be</em> instead of who you
+          <em>are</em>. And then simply try. You'll inevitably wake up at 1:00
+          pm on a weekend but that's okay. Drop the “I'm failure” story and just
+          try again tomorrow. You'll be surprised at who you can be when you
+          stop trying to be who you are.
+        </p>
+      </div>
+    </div>
+    <hr />
+    <div class="post">
+      <h1>
+        <a href="/posts/demystifying-the-logistic-regression-equation.html"
+          >Demystifying the logistic regression equation</a
+        >
+      </h1>
+      <h4>Published Oct. 1, 2020</h4>
+      <div>
+        <p>
+          After thinking about the whole logistic regression thing for a while,
+          I was confused how we got to the magic e^x function considering our
+          goal was merely to go from a crude linear approximation of a
+          probability to a meaningful probability bounded between 0 and 1. While
+          there are infinitely many ways to get there,
+          <a href="https://www.desmos.com/calculator/tbgpkcxa0l">here</a> are a
+          few arguably simpler examples I came up with to also achieve the same
+          outcome. Notably, I was curious why we do we not use the x/abs(x)
+          version when that gives us a much crisper binary outcome?[0]
+        </p>
+
+        <img src="/images/sigmoid-graphs.png" alt="graphs" width="500px" />
+
+        <p>The problem breaks down into answering the following:</p>
+        <ol>
+          <li>How can we make sure our output is positive?</li>
+          <li>And how can we make sure our output is bounded at 1?</li>
+        </ol>
+        <p>
+          But thinking about this, we can see that there are infinitely many
+          ways to do this. So again, why an exponential?
+        </p>
+        <p>
+          I can come up with intuitions that help us understand why we use the
+          equation we use[1]: An exponential reflects the idea that an increase
+          in X result in an increase in p(X) and a decrease in X results in a
+          decrease in p(X). In other words, a negative coefficient means a
+          decrease in probability and vice versa.[2]
+        </p>
+        <p>Exponentials? :check: Lines? :check: Squares? :x: Absolute? :x:</p>
+        <p>
+          An exponential, by definition, reflects the idea that the effect a
+          step change in X has on p(X) depends on our current value of X.[3] In
+          other words, if we’re considering the effect of income on probability
+          of default, it matters whether we are going from an income of $0k–$10k
+          vs $200k–$210k.
+        </p>
+        <p>Exponentials? :check: Lines? :x: Squares? :check: Absolute? :x:</p>
+        <p>
+          And what about the +1 in the denominator? We could have used any
+          number > 0. It seems 1 is just a convenient choice to help give
+          meaning to p(X) / (1-p(X)). We could just as correctly use +2 or +3,
+          but then we would just be carrying around a factor of 2 or 3. So we
+          just pick +1 arbitrarily to make things simpler.
+        </p>
+        <p>
+          Hopefully these ramblings kind of help understand the seemingly
+          magical appearance of e^x in this application. As with a lot of other
+          statistical applications, the formula chosen is due to thoughtful
+          convenience and not an absolute truth.
+        </p>
+      </div>
+      <div>
+        <p>
+          [0] You can just as legitimately use x/abs(x) to create your own
+          binary classifier.
+        </p>
+        <p>
+          [1] These may not be the actual reasons why this equation was chosen…
+        </p>
+        <p>
+          [2] I guess this really just means that we want dy/dx > 0 for all x?
+        </p>
+        <p>[3] I guess this really just means that we want d^2y/dx^2 ≠ 0?</p>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,85 +1,86 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mash's Readings</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   <body>
     <div id="heading">
-
       <h3>Mash's Musings</h3>
 
       <ul class="topnav">
         <li><a href="/">Musings</a></li>
         <li><a href="/books">Readings</a></li>
       </ul>
-
     </div>
 
-    <hr>
+    <hr />
 
     <h4>Updated Feb. 7, 2021</h4>
 
     <div id="preamble">
       <p>
-        Having shared booklists with a few people through the inconvenient method of copy-pasting from my to-do app, I figured it easiest to just dump everything I've read here for now. Feel free to reach out to discuss anything that you find interesting.
+        Having shared booklists with a few people through the inconvenient
+        method of copy-pasting from my to-do app, I figured it easiest to just
+        dump everything I've read here for now. Feel free to reach out to
+        discuss anything that you find interesting.
       </p>
     </div>
 
     <h4>Nonfiction</h4>
-    <div id="nonfiction">
-    </div>
+    <div id="nonfiction"></div>
 
     <h4>Fiction</h4>
-    <div id="fiction">
-    </div>
+    <div id="fiction"></div>
 
     <script>
       loadDoc("./booklist.xml", getBooks);
 
       function loadDoc(url, cFunction) {
-              var xhttp;
-              xhttp=new XMLHttpRequest();
-              xhttp.onreadystatechange = function() {
-                      if (this.readyState == 4 && this.status == 200) {
-                              cFunction(this);
-                            }
-                    };
-              xhttp.open("GET", url, true);
-              xhttp.send();
-            }
+        var xhttp;
+        xhttp = new XMLHttpRequest();
+        xhttp.onreadystatechange = function () {
+          if (this.readyState == 4 && this.status == 200) {
+            cFunction(this);
+          }
+        };
+        xhttp.open("GET", url, true);
+        xhttp.send();
+      }
 
       function getBooks(xhttp) {
-              var xmlDoc = xhttp.responseXML;
-              var books = xmlDoc.getElementsByTagName("book");
-              var fiction = "<ul>\n";
-              var nonfiction = "<ul>\n";
+        var xmlDoc = xhttp.responseXML;
+        var books = xmlDoc.getElementsByTagName("book");
+        var fiction = "<ul>\n";
+        var nonfiction = "<ul>\n";
 
-              for (i = 0; i < books.length; i++) {
-                      var completed = books[i].getElementsByTagName("completed")[0].childNodes[0].nodeValue;
-                      var title = books[i].getElementsByTagName("title")[0].childNodes[0].nodeValue;
-                      var author = books[i].getElementsByTagName("author")[0].childNodes[0].nodeValue;
-                      var category = books[i].getElementsByTagName("category")[0].childNodes[0].nodeValue;
+        for (i = 0; i < books.length; i++) {
+          var completed = books[i].getElementsByTagName("completed")[0]
+            .childNodes[0].nodeValue;
+          var title = books[i].getElementsByTagName("title")[0].childNodes[0]
+            .nodeValue;
+          var author = books[i].getElementsByTagName("author")[0].childNodes[0]
+            .nodeValue;
+          var category = books[i].getElementsByTagName("category")[0]
+            .childNodes[0].nodeValue;
 
-                      if (completed === "true") {
-                              if (category === "fiction") {
-                                      fiction += "<li><em>" + title + "</em>. " + author + ". </li>\n";
-                                    }
-                              else {
-                                      nonfiction += "<li><em>" + title + "</em>. " + author + ". </li>\n";
-                                    }
-                            }
-                    }
-
-              fiction += "</ul>";
-              nonfiction += "</ul>";
-              document.getElementById("fiction").innerHTML = fiction;
-              document.getElementById("nonfiction").innerHTML = nonfiction;
+          if (completed === "true") {
+            if (category === "fiction") {
+              fiction += "<li><em>" + title + "</em>. " + author + ". </li>\n";
+            } else {
+              nonfiction +=
+                "<li><em>" + title + "</em>. " + author + ". </li>\n";
             }
+          }
+        }
 
+        fiction += "</ul>";
+        nonfiction += "</ul>";
+        document.getElementById("fiction").innerHTML = fiction;
+        document.getElementById("nonfiction").innerHTML = nonfiction;
+      }
     </script>
-
   </body>
 </html>

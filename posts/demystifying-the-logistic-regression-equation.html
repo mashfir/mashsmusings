@@ -1,72 +1,85 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Demystifying the Logistic Regression Equation</title>
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
   </head>
   <body>
     <div id="heading">
-
       <h3>Mash's Musings</h3>
-
       <ul class="topnav">
         <li><a href="/">Musings</a></li>
         <li><a href="/books">Readings</a></li>
       </ul>
-
     </div>
-
-    <hr>
-
+    <hr />
     <div id="post">
       <h1>
-        <a href="/posts/demystifying-the-logistic-regression-equation.html">Demystifying the logistic regression equation</a>
+        <a href="/posts/demystifying-the-logistic-regression-equation.html"
+          >Demystifying the logistic regression equation</a
+        >
       </h1>
-      <h4>
-        Published Oct. 1, 2020
-      </h4>
+      <h4>Published Oct. 1, 2020</h4>
       <div>
         <p>
-        After thinking about the whole logistic regression thing for a while, I was confused how we got to the magic e^x function considering our goal was merely to go from a crude linear approximation of a probability to a meaningful probability bounded between 0 and 1. While there are infinitely many ways to get there, <a href="https://www.desmos.com/calculator/tbgpkcxa0l">here</a> are a few arguably simpler examples I came up with to also achieve the same outcome. Notably, I was curious why we do we not use the x/abs(x) version when that gives us a much crisper binary outcome?[0]
+          After thinking about the whole logistic regression thing for a while,
+          I was confused how we got to the magic e^x function considering our
+          goal was merely to go from a crude linear approximation of a
+          probability to a meaningful probability bounded between 0 and 1. While
+          there are infinitely many ways to get there,
+          <a href="https://www.desmos.com/calculator/tbgpkcxa0l">here</a> are a
+          few arguably simpler examples I came up with to also achieve the same
+          outcome. Notably, I was curious why we do we not use the x/abs(x)
+          version when that gives us a much crisper binary outcome?[0]
         </p>
 
         <img src="/images/sigmoid-graphs.png" alt="graphs" width="500px" />
 
-        <p>
-        The problem breaks down into answering the following:
-        </p>
+        <p>The problem breaks down into answering the following:</p>
         <ol>
           <li>How can we make sure our output is positive?</li>
           <li>And how can we make sure our output is bounded at 1?</li>
         </ol>
         <p>
-          But thinking about this, we can see that there are infinitely many ways to do this. So again, why an exponential?
+          But thinking about this, we can see that there are infinitely many
+          ways to do this. So again, why an exponential?
         </p>
         <p>
-          I can come up with intuitions that help us understand why we use the equation we use[1]:
-An exponential reflects the idea that an increase in X result in an increase in p(X) and a decrease in X results in a decrease in p(X). In other words, a negative coefficient means a decrease in probability and vice versa.[2] 
+          I can come up with intuitions that help us understand why we use the
+          equation we use[1]: An exponential reflects the idea that an increase
+          in X result in an increase in p(X) and a decrease in X results in a
+          decrease in p(X). In other words, a negative coefficient means a
+          decrease in probability and vice versa.[2]
+        </p>
+        <p>Exponentials? :check: Lines? :check: Squares? :x: Absolute? :x:</p>
+        <p>
+          An exponential, by definition, reflects the idea that the effect a
+          step change in X has on p(X) depends on our current value of X.[3] In
+          other words, if we’re considering the effect of income on probability
+          of default, it matters whether we are going from an income of $0k–$10k
+          vs $200k–$210k.
+        </p>
+        <p>Exponentials? :check: Lines? :x: Squares? :check: Absolute? :x:</p>
+        <p>
+          And what about the +1 in the denominator? We could have used any
+          number > 0. It seems 1 is just a convenient choice to help give
+          meaning to p(X) / (1-p(X)). We could just as correctly use +2 or +3,
+          but then we would just be carrying around a factor of 2 or 3. So we
+          just pick +1 arbitrarily to make things simpler.
         </p>
         <p>
-          Exponentials? :check:  Lines? :check: Squares? :x: Absolute? :x:
-        </p>
-        <p>
-          An exponential, by definition, reflects the idea that the effect a step change in X has on p(X) depends on our current value of X.[3] In other words, if we’re considering the effect of income on probability of default, it matters whether we are going from an income of $0k–$10k vs $200k–$210k.
-        </p>
-        <p>
-          Exponentials? :check:  Lines? :x: Squares? :check:  Absolute? :x:
-        </p>
-        <p>
-          And what about the +1 in the denominator? We could have used any number > 0. It seems 1 is just a convenient choice to help give meaning to p(X) / (1-p(X)). We could just as correctly use +2 or +3, but then we would just be carrying around a factor of 2 or 3. So we just pick +1 arbitrarily to make things simpler.
-        </p>
-        <p>
-          Hopefully these ramblings kind of help understand the seemingly magical appearance of e^x in this application. As with a lot of other statistical applications, the formula chosen is due to thoughtful convenience and not an absolute truth.
+          Hopefully these ramblings kind of help understand the seemingly
+          magical appearance of e^x in this application. As with a lot of other
+          statistical applications, the formula chosen is due to thoughtful
+          convenience and not an absolute truth.
         </p>
       </div>
       <div>
         <p>
-          [0] You can just as legitimately use x/abs(x) to create your own binary classifier.
+          [0] You can just as legitimately use x/abs(x) to create your own
+          binary classifier.
         </p>
         <p>
           [1] These may not be the actual reasons why this equation was chosen…
@@ -74,11 +87,8 @@ An exponential reflects the idea that an increase in X result in an increase in 
         <p>
           [2] I guess this really just means that we want dy/dx > 0 for all x?
         </p>
-        <p>
-          [3] I guess this really just means that we want d^2y/dx^2 ≠ 0?
-        </p>
+        <p>[3] I guess this really just means that we want d^2y/dx^2 ≠ 0?</p>
       </div>
     </div>
-
   </body>
 </html>
