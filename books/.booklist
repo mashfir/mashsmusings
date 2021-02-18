@@ -1,0 +1,106 @@
+title	author	category	completed
+How to Read a Book	Mortimer J. Adler, Charles Van Doren	nonfiction	true
+Getting Things Done	David Allen	nonfiction	true
+The Selfish Gene	Richard Dawkins	nonfiction	false
+Seeking Wisdom	Peter Bevelin	nonfiction	false
+Atomic Habits	James Clear	nonfiction	true
+The Dream Machine	Mitchell Waldrop	nonfiction	false
+The Art of Doing Science and Engineering	Richard W. Hamming	nonfiction	true
+Stubborn Attachments	Tyler Cowen	nonfiction	false
+How to Win Friends and Influence People	Dale Carnegie	nonfiction	false
+Age of Ambition	Evan Osnos	nonfiction	false
+Sapiens	Yuval Noah Harari	nonfiction	true
+Homo Deus	Yuval Noah Harari	nonfiction	true
+Gödel, Escher, Bach	Douglas Hofstader	nonfiction	false
+Winston Churchill	John Keegan	nonfiction	true
+The True Believer	Eric Hoffer	nonfiction	true
+Zero to One	Peter Thiel	nonfiction	true
+Measure What Matters	John Doerr	nonfiction	true
+The Lean Startup	Eric Ries	nonfiction	true
+Fooled by Randomness	Nassim Nicholas Taleb	nonfiction	false
+Antifragile	Nassim Nicholas Taleb	nonfiction	false
+The Black Swan	Nassim Nicholas Taleb	nonfiction	true
+Misbehaving	Richard Thaler	nonfiction	true
+The Prince	Niccolo Machiavelli	nonfiction	false
+Digital Minimalism	Cal Newport	nonfiction	true
+Deep Work	Cal Newport	nonfiction	true
+The Pyramid Principle	Barbara Minto	nonfiction	false
+Thinking, Fast and Slow	Daniel Kahneman	nonfiction	true
+Why We Sleep	Matthew Walker	nonfiction	true
+Leviathan	Thomas Hobbes	nonfiction	false
+The Wealth of Nations	Adam Smith	nonfiction	true
+Zen and the Art of Motorcycle Maintenance	Robert M. Pirsig	nonfiction	true
+On the Origin of Species	Charles Darwin	nonfiction	false
+An American Sickness	Elizabeth Rosenthal	nonfiction	true
+Our Mathematical Universe	Max Tegmark	nonfiction	true
+Never Split the Difference	Chris Voss	nonfiction	true
+Principles	Ray Dalio	nonfiction	true
+Lifespan	David Sinclair	nonfiction	true
+Walden	Henry David Thoreau	nonfiction	false
+Payments Systems in the U.S.	Carol Coye Benson	nonfiction	false
+Mahabharata	Vyasa	fiction	false
+Tao Te Ching	Laozi	nonfiction	false
+Meditations	Marcus Aurelius	nonfiction	true
+Capital in the Twenty-First Century	Thomas Piketty	nonfiction	false
+Das Kapital	Karl Marx	nonfiction	false
+Communist Manifesto	Karl Marx	nonfiction	true
+Committed	Elizabeth Gilbert	nonfiction	true
+Rationality: From AI to Zombies	Eliezer Yudkowsky	nonfiction	false
+4-Hour Workweek	Tim Ferriss	nonfiction	false
+Almanack of Naval Ravikant	Eric Jorgensen	nonfiction	true
+Poor Richard's Almanack	Benjamin Franklin	nonfiction	false
+Poor Charlie's Almanack	Peter D. Kaufman	nonfiction	true
+Crime and Punishment	Fyodor Dostoevsky	fiction	true
+The Kite Runner	Khaled Hosseini	fiction	true
+Lord of the Flies	William Golding	fiction	true
+Animal Farm	George Orwell	fiction	true
+1984	George Orwell	fiction	true
+Hitchhiker's Guide to the Galaxy	Douglas Adams	fiction	true
+Restaurant at the End of the Universe	Douglas Adams	fiction	true
+The Great Gatsby	F. Scott Fitzgerald	fiction	true
+Lolita	Vladimir Nabokov	fiction	true
+The Catcher in the Rye	J. D. Salinger	fiction	true
+Catch-22	Joseph Heller	fiction	true
+Love in the Time of Cholera	Gabriel Garcia Marquez	fiction	true
+The Picture of Dorian Gray	Oscar Wilde	fiction	false
+Farenheit 451	Ray Bradbury	fiction	true
+Slaughterhouse-Five	Kurt Vonnegut	fiction	true
+War and Peace	Leo Tolstoy	fiction	false
+Anna Karenina	Leo Tolstoy	fiction	false
+The Gulag Archipelago	Aleksandr Solzhenitsyn	nonfiction	false
+Cancer Ward	Aleksandr Solzhenitsyn	fiction	false
+Of Mice and Men	John Steinbeck	fiction	false
+Oliver Twist	Charles Dickens	fiction	false
+A Tale of Two Cities	Charles Dickens	fiction	false
+The Brothers Karamazov	Fyodor Dostoevsky	fiction	false
+The Castle	Franz Kafka	fiction	true
+The Trial	Franz Kafka	fiction	true
+The Alchemist	Paolo Coelho	fiction	true
+The Curious Incident of the Dog in the Night-Time	Mark Haddon	fiction	false
+The Course of Love	Alain de Botton	fiction	true
+Frankenstein	Mary Shelley	fiction	true
+The Fountainhead	Ayn Rand	fiction	true
+Atlas Shrugged	Ayn Rand	fiction	false
+A Connecticut Yankee in King Arthur's Court	Mark Twain	fiction	false
+Moby Dick	Herman Melville	fiction	false
+Brave New World	Aldous Huxley	fiction	true
+The Odyssey	Homer	fiction	true
+Iliad	Homer	fiction	true
+Metamorphoses	Ovid	fiction	false
+A Fine Balance	Rohinton Mistry	fiction	true
+Heart of Darkness	Joseph Conrad	fiction	true
+Room	Emma Donoghue	fiction	true
+Wuthering Heights	Emily Bronte	fiction	true
+Don Quixote	Miguel de Cervantes	fiction	true
+The Hunt for Red October	Tom Clancy	fiction	true
+Paradise Lost	John Milton	fiction	false
+Flowers for Algernon	Daniel Keyes	fiction	true
+V for Vendetta	Alan Moore	fiction	true
+The Sandman	Neil Gaiman	fiction	true
+Agamemnon	Aeschylus	fiction	true
+The Libation Bearers	Aeschylus	fiction	false
+Eumenides	Aeschylus	fiction	false
+Macbeth	William Shakespeare	fiction	true
+King Lear	William Shakespeare	fiction	true
+The Taming of the Shrew	William Shakespeare	fiction	true
+Romeo and Juliet	William Shakespeare	fiction	true
