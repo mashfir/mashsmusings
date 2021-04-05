@@ -36,7 +36,7 @@ Our Mathematical Universe	Max Tegmark	nonfiction	true
 Never Split the Difference	Chris Voss	nonfiction	true
 Principles	Ray Dalio	nonfiction	true
 Lifespan	David Sinclair	nonfiction	true
-Walden	Henry David Thoreau	nonfiction	false
+Walden	Henry David Thoreau	nonfiction	true
 Payments Systems in the U.S.	Carol Coye Benson	nonfiction	false
 Mahabharata	Vyasa	fiction	false
 Tao Te Ching	Laozi	nonfiction	false
@@ -67,6 +67,8 @@ Farenheit 451	Ray Bradbury	fiction	true
 Slaughterhouse-Five	Kurt Vonnegut	fiction	true
 War and Peace	Leo Tolstoy	fiction	false
 Anna Karenina	Leo Tolstoy	fiction	false
+Six Easy Pieces Richard P. Feynman	nonfiction	false
+Surely You're Joking, Mr. Feynman!  Richard P. Feynman	nonfiction	false
 The Gulag Archipelago	Aleksandr Solzhenitsyn	nonfiction	false
 Cancer Ward	Aleksandr Solzhenitsyn	fiction	false
 Of Mice and Men	John Steinbeck	fiction	false
