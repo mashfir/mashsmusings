@@ -26,7 +26,7 @@ Having shared booklists with a few people through the inconvenient method of cop
 </p>\n\
 </div>\n\
 "
-  printf("<h4>Updated %s</h4>\n", strftime("%b. %d, %Y"))
+  printf("<h4>Updated %s</h4>\n", strftime("%b. %-d, %Y"))
 }
 {
   if (NR > 1) {
