@@ -93,6 +93,7 @@ Iliad	Homer	fiction	true
 Metamorphoses	Ovid	fiction	false
 A Fine Balance	Rohinton Mistry	fiction	true
 Heart of Darkness	Joseph Conrad	fiction	true
+The Life You Can Save	Peter Singer	nonfiction	true
 Room	Emma Donoghue	fiction	true
 Wuthering Heights	Emily Bronte	fiction	true
 Don Quixote	Miguel de Cervantes	fiction	true
@@ -104,7 +105,7 @@ The Three-Body Problem	Cixin Liu	fiction	false
 V for Vendetta	Alan Moore	fiction	true
 The Sandman	Neil Gaiman	fiction	true
 Oresteia Trilogy	Aeschylus	fiction	true
-Oedipus Trilogy	Sophocles	fiction	false
+Oedipus Trilogy	Sophocles	fiction	true
 Divine Comedy	Dante	fiction	false
 Macbeth	William Shakespeare	fiction	true
 King Lear	William Shakespeare	fiction	true
