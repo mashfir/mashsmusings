@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to grok SQL</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <div id="heading">
+      <h3>Mash's Musings</h3>
+      <ul class="topnav">
+        <li><a href="/">Musings</a></li>
+        <li><a href="/books">Readings</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div id="post">
+      <h1>
+        <a href="/posts/how-to-grok-sql.html">How to grok SQL</a>
+      </h1>
+      <h4>Published Apr. 27, 2021</h4>
+      <p>
+        The rigidity of SQL is both a blessing and a curse. Once you "get it",
+        you really get it, there are almost no surprises. But its inflexible
+        syntax and difficulty to test also means that it can take some time to
+        grok and lead to lots of silent errors.
+      </p>
+      <p>
+        Confusingly, SQL is not executed top to bottom, the manner in which a
+        human would read it. Reasoning about and reading SQL in the actual
+        execution order, as outlined below, provides much greater clarity. One
+        general tip is to use CTEs (Common Table Expressions AKA
+        <code>WITH</code> statements) liberally to keep things organized.
+      </p>
+      <h2><code>FROM</code></h2>
+      <p>
+        The most important part of any query and where the source of most
+        mistakes. Reasoning about this involves visualizing, mentally or on
+        paper, the <em>full</em> expansion of each join. Make sure you can state
+        exactly what the the primary keys are on each table before joining.
+        Write out some rows you expect to be dropped with inner joins, some rows
+        you expect to be empty with outer joins, and some rows you expect to be
+        duplicated/expanded if you're not joining two tables at the exact same
+        level of aggregation. Joining at the wrong level of aggregation is
+        really easy and won't return any errors, quietly returning a completely
+        incorrect number.
+      </p>
+      <p>
+        By the end of this step you should have a sense of some giant megatable
+        you're creating and be satisfied with what each row in the megatable
+        represents. This is likely different than what your left-most table
+        started with. Most of the columns in your megatable will never be used
+        and the columns you joined on will likely be duplicated&mdash;this is
+        okay.
+      </p>
+      <h2><code>WHERE</code></h2>
+      <p>
+        Once you have your megatable, decide which rows you don't need. This
+        part is relatively well understood. The most common mistake seen stems
+        from trying to filter on fields in joined tables when nothing was
+        actually joined. Again, having a clear visualization of the megatable
+        will help avoid this. Also be explicit about how you handle nulls: if A
+        is null and B is 1, A != B may not do what you expect...
+      </p>
+      <h2><code>GROUP BY</code></h2>
+      <p>
+        You should know what level of aggregation you need for your
+        output&mdash;<em>only group by those fields</em>! This is the second
+        most common source of confusion. If you find yourself starting to group
+        by numeric fields, stop! If you find yourself grouping by fields that
+        are 1:1 or 1:many with your main field, stop! Really common mistakes
+        would be grouping by city, state, and country or grouping by person_id,
+        person_name, and title. In both of these situations, what you're really
+        trying to do is just group by city or person_id first (within a CTE) and
+        <em>then</em> join in the additional fields; the additional grouping
+        fields are completely redundant! Adding all sorts of unnecessary
+        groupings makes the query perform worse and adds confusion.
+      </p>
+      <h2><code>HAVING</code></h2>
+      <p>
+        Did you know that this even exists? <code>WHERE</code> but applied at
+        the level of <code>GROUP BY</code>. Only want to find duplicates? Only
+        care about groups above a certain threshold? This is where you encode
+        it.
+      </p>
+      <h2>
+        <code>SELECT</code>
+      </h2>
+      <p>
+        While this seems like the meat and potatoes when first learning, this is
+        really near the end of the process and should be straightforward after
+        thinking through everything else. Be frugal with what fields you're
+        pulling; a <code>SELECT *</code> might be quick to write but could slow
+        you down 10x in run time. Window functions can get tricky and are
+        outside of the scope of this post.
+      </p>
+      <h2><code>ORDER BY</code></h2>
+      <p>
+        You're almost there! Given how late this is in the execution, you can
+        order by all the fancy new fields you defined in the last step (aside
+        from window functions, womp womp).
+      </p>
+      <h2><code>LIMIT</code></h2>
+      <p>
+        You made it! Try to be frugal here as well since you probably just want
+        to make sure things are working. Forgetting this can lead to some long
+        wait times as your front-end tries to download 1 GB files when a few KB
+        would have sufficed.
+      </p>
+      <footer>
+        <p>
+          This is part of an effort to build a habit of writing, inspired by
+          <a href="https://100daystooffload.com" target="_blank"
+            >#100DaysToOffload</a
+          >. Please feel free to shame me into keeping some pace as I drop off
+          on this.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
