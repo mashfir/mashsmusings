@@ -35,12 +35,12 @@
       </p>
       <h2><code>FROM</code></h2>
       <p>
-        The most important part of any query and the source of most
-        mistakes. Reasoning about this involves visualizing, mentally or on
-        paper, the <em>full</em> expansion of each join. Make sure you can state
-        exactly what the the primary keys are on each table before joining.
-        Write out some rows you expect to be dropped with inner joins, some rows
-        you expect to be empty with outer joins, and some rows you expect to be
+        The most important part of any query and the source of most mistakes.
+        Reasoning about this involves visualizing, mentally or on paper, the
+        <em>full</em> expansion of each join. Make sure you can state exactly
+        what the the primary keys are on each table before joining. Write out
+        some rows you expect to be dropped with inner joins, some rows you
+        expect to be empty with outer joins, and some rows you expect to be
         duplicated/expanded if you're not joining two tables at the exact same
         level of aggregation. Joining at the wrong level of aggregation is
         really easy and won't return any errors, quietly returning a completely

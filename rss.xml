@@ -12,6 +12,39 @@
     <!-- LB -->
 
 <item>
+<title>Essential reading list</title>
+<guid>https://mashsmusings.neocities.org/index.html#essential-reading-list</guid>
+<pubDate>Wed, 28 Apr 2021 21:04:36 -0700</pubDate>
+<description><![CDATA[
+<p>
+What are the "essential" things we should learn as students? Nowadays, I often hear "coding is the language of the future" or "everyone should learn how to program" but like most maxims, this is a gross simplification. Yes, everyone who spends 8+ hours a day on a computer should learn something about how to use it more effectively, but everyone should not be a programmer. However, I firmly believe that there are a few foundational skills outside of the current curriculum that literally everyone should learn, especially before college when the training wheels are kicked off. Curriculums are zero-sum so for everything added, something must go; I would rank the following topics/courses at least above grade school history, geography, and maybe even a second language.
+</p>
+  <h2>How to learn</h2>
+<p>
+Encapsulated by Barbara Oakley's <em>Learning How to Learn</em>. This is something that sounds so obvious that everyone assumes they know it already&mdash;they don't. The critical practical takeaway is knowledge of how learning actually happens and how to take advantage of your own psychology. Learning this breaks down the idea that there are subjects you are good at and bad at, and replaces it with a set of tools to gain mastery in any area.
+</p>
+<h2>Managing your time</h2>
+<p>
+Encapsulated by David Allen's <em>Getting Things Done</em>. Given how little attention is paid to time management outside of the corporate world, every young adult unfortunately learns this through the "sink or swim" approach when transitioning from high school to college and <em>again</em> from college to beyond. The big thing here is giving students the idea that you can break down big looming projects, in life and school, into simple actions they can take immediately. Whether they stick to the exact process in the book is inconsequential, what matters is instilling the belief that even for the most daunting and ambiguous of tasks, there is always a simple next step to take. Otherwise, ambiguity can only be tackled when <em>before</em> <a href="https://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html">the Panic Monster</a> rears its head.
+</p>
+<h2>Reading efficiently and effectively</h2>
+<p>
+Encapsulated by Mortimer J. Adler's <em>How to Read a Book</em>. Forget everything you've learned in school about how to read and start over the right way; these 400 pages sum up what 12 years of formal education could not. If you aren't reading the Table of Contents, you're doing it wrong. Students should be able to learn how to <em>quickly</em> get the gist of a book and go deeper in the rare instances it's needed. It's crazy that we are never taught how to understand the big picture, instead spending hours poring over single passages or specific words. Once the required reading list goes from two books a semester to 6 papers and 3 books <em>per class</em>, I'd rather know how to find the main message of a book in a few minutes than how to surmise what the color green <em>really</em> meant in <em>The Great Gatsby</em>.
+</p>
+<footer>
+        <p>
+          This is part of an effort to build a habit of writing, inspired by
+          <a href="https://100daystooffload.com" target="_blank"
+            >#100DaysToOffload</a
+          >. Please feel free to shame me into keeping some pace as I drop off
+          on this.
+        </p>
+      </footer>
+]]></description>
+</item>
+
+
+<item>
 <title>How to grok SQL</title>
 <guid>https://mashsmusings.neocities.org/index.html#how-to-grok-sql</guid>
 <pubDate>Tue, 27 Apr 2021 19:11:09 -0700</pubDate>
