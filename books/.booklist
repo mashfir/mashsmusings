@@ -46,7 +46,7 @@ Das Kapital	Karl Marx	nonfiction	false
 Communist Manifesto	Karl Marx	nonfiction	true
 Committed	Elizabeth Gilbert	nonfiction	true
 Rationality: From AI to Zombies	Eliezer Yudkowsky	nonfiction	false
-4-Hour Workweek	Tim Ferriss	nonfiction	false
+4-Hour Workweek	Tim Ferriss	nonfiction	true
 Almanack of Naval Ravikant	Eric Jorgensen	nonfiction	true
 Poor Richard's Almanack	Benjamin Franklin	nonfiction	false
 Poor Charlie's Almanack	Peter D. Kaufman	nonfiction	true
@@ -106,7 +106,9 @@ V for Vendetta	Alan Moore	fiction	true
 The Sandman	Neil Gaiman	fiction	true
 Oresteia Trilogy	Aeschylus	fiction	true
 Oedipus Trilogy	Sophocles	fiction	true
-Divine Comedy	Dante	fiction	false
+Inferno	Dante	fiction	false
+Purgatorio	Dante	fiction	false
+Paradiso	Dante	fiction	false
 Macbeth	William Shakespeare	fiction	true
 King Lear	William Shakespeare	fiction	true
 The Taming of the Shrew	William Shakespeare	fiction	true
