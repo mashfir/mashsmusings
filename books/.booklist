@@ -1,5 +1,6 @@
-title	author	category	completed
+title	author	category	completed published
 How to Read a Book	Mortimer J. Adler, Charles Van Doren	nonfiction	true
+Sum	David Eagleman	fiction	false 2009
 Getting Things Done	David Allen	nonfiction	true
 The Selfish Gene	Richard Dawkins	nonfiction	true
 Seeking Wisdom	Peter Bevelin	nonfiction	false
@@ -47,11 +48,13 @@ Das Kapital	Karl Marx	nonfiction	false
 Communist Manifesto	Karl Marx	nonfiction	true
 Committed	Elizabeth Gilbert	nonfiction	true
 Rationality: From AI to Zombies	Eliezer Yudkowsky	nonfiction	false
-4-Hour Workweek	Tim Ferriss	nonfiction	true
-Almanack of Naval Ravikant	Eric Jorgensen	nonfiction	true
-Poor Richard's Almanack	Benjamin Franklin	nonfiction	false
-Poor Charlie's Almanack	Peter D. Kaufman	nonfiction	true
-Crime and Punishment	Fyodor Dostoevsky	fiction	true
+4-Hour Workweek	Tim Ferriss	nonfiction	true  2007
+Almanack of Naval Ravikant	Eric Jorgensen	nonfiction	true  2020
+Old Testament	Various	nonfiction	false -400
+New Testament	Various	nonfiction	false 95
+Poor Richard's Almanack	Benjamin Franklin	nonfiction	false 1758
+Poor Charlie's Almanack	Peter D. Kaufman	nonfiction	true  2005
+Crime and Punishment	Fyodor Dostoevsky	fiction	true  1866
 The Kite Runner	Khaled Hosseini	fiction	true
 Lord of the Flies	William Golding	fiction	true
 Animal Farm	George Orwell	fiction	true
@@ -59,19 +62,20 @@ Animal Farm	George Orwell	fiction	true
 Hitchhiker's Guide to the Galaxy	Douglas Adams	fiction	true
 Restaurant at the End of the Universe	Douglas Adams	fiction	true
 The Great Gatsby	F. Scott Fitzgerald	fiction	true
-Lolita	Vladimir Nabokov	fiction	true
-The Catcher in the Rye	J. D. Salinger	fiction	true
-Catch-22	Joseph Heller	fiction	true
-Love in the Time of Cholera	Gabriel Garcia Marquez	fiction	true
+Lolita	Vladimir Nabokov	fiction	true  1955
+Dialogues	Plato	fiction	false -370
+The Catcher in the Rye	J. D. Salinger	fiction	true  1951
+Catch-22	Joseph Heller	fiction	true  1961
+Love in the Time of Cholera	Gabriel Garcia Marquez	fiction	true  1985
 The Picture of Dorian Gray	Oscar Wilde	fiction	false
 Farenheit 451	Ray Bradbury	fiction	true
 Gulliver's Travels	Jonathan Swift	fiction	true
 Slaughterhouse-Five	Kurt Vonnegut	fiction	true
 War and Peace	Leo Tolstoy	fiction	false
 Anna Karenina	Leo Tolstoy	fiction	false
-Six Easy Pieces	Richard P. Feynman	nonfiction	false
-"Surely You're Joking, Mr. Feynman!"	Richard P. Feynman	nonfiction	true
-The Gulag Archipelago	Aleksandr Solzhenitsyn	nonfiction	false
+Six Easy Pieces	Richard P. Feynman	nonfiction	false 2011
+"Surely You're Joking, Mr. Feynman!"	Richard P. Feynman	nonfiction	true  1985
+The Gulag Archipelago	Aleksandr Solzhenitsyn	nonfiction	false 1973
 Cancer Ward	Aleksandr Solzhenitsyn	fiction	false
 Of Mice and Men	John Steinbeck	fiction	false
 Tuesdays with Morrie	Mitch Albom	nonfiction	true
