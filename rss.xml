@@ -12,6 +12,36 @@
     <!-- LB -->
 
 <item>
+<title>Joy of jankiness</title>
+<guid>https://mashsmusings.neocities.org/index.html#joy-of-jankiness</guid>
+<pubDate>Fri, 21 May 2021 09:15:46 -0700</pubDate>
+<description><![CDATA[
+<p>
+As my blog posts continue, I realize that having every single post in its entirety on on page will not scale. It's difficult to read through earlier posts, there are no previous or next links. There are no tags to organize for the different topics. Fixing any of these problems poses a non-trivial challenge considering my static site generator is composed of a single bash script. And yet, in spite of (or perhaps because of) that jankiness, I love my site.
+</p>
+<p>
+There is something special about simplicity and understanding. While I could have easily solved all those problems with a WordPress site, I would have lost all the pain and struggle that came with figuring out how to add a simple link to my nav bar. I would have lost the joy that comes with cooking your own meal, building your own computer, or even changing your own oil. It doesn't matter how simple or mundane the task is, it matters that you are closer to mastery in some small domain. With every big push in tech to outsource everything, from couriers to deliver food to personal assistants to answer emails, we get further from this general mastery. Further from the master-of-all-trades Renaissance man of old that we idealize.
+</p>
+<p>
+Refuse the conveniences, take a peek under the hood, and focus on the <em>bare minimum</em> that you care about, and tackle it from first principles. This is how to find flow, this is how to gain mastery.
+</p>
+<p>
+As things scale, I'm sure I'll learn why using two text files for a database is not a good idea. Or why hardcoding html snippets in a bash file is bad practice. I look forward to it. But until then, please enjoy my janky site in all its leanness and "charm" in the same way you'd enjoy a friend's first attempt at cooking for you in college. Every great chef starts somewhere.
+</p>
+<footer>
+        <p>
+          This is part of an effort to build a habit of writing, inspired by
+          <a href="https://100daystooffload.com" target="_blank"
+            >#100DaysToOffload</a
+          >. Please feel free to shame me into keeping some pace as I drop off
+          on this.
+        </p>
+      </footer>
+]]></description>
+</item>
+
+
+<item>
 <title>The strangeness of creativity</title>
 <guid>https://mashsmusings.neocities.org/index.html#the-strangeness-of-creativity</guid>
 <pubDate>Wed, 19 May 2021 09:10:53 -0700</pubDate>
