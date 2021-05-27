@@ -1,58 +1,57 @@
-title	author	category	completed published
-How to Read a Book	Mortimer J. Adler, Charles Van Doren	nonfiction	true
-Sum	David Eagleman	fiction	false 2009
-Getting Things Done	David Allen	nonfiction	true
-The Selfish Gene	Richard Dawkins	nonfiction	true
-Seeking Wisdom	Peter Bevelin	nonfiction	false
-Atomic Habits	James Clear	nonfiction	true
-The Dream Machine	Mitchell Waldrop	nonfiction	false
-The Art of Doing Science and Engineering	Richard W. Hamming	nonfiction	true
-The Innovator's Dilemma	Clayton Christensen	nonfiction	true
-Stubborn Attachments	Tyler Cowen	nonfiction	true
-How to Win Friends and Influence People	Dale Carnegie	nonfiction	false
-Age of Ambition	Evan Osnos	nonfiction	false
-Sapiens	Yuval Noah Harari	nonfiction	true
-Homo Deus	Yuval Noah Harari	nonfiction	true
-Gödel, Escher, Bach	Douglas Hofstader	nonfiction	false
-Winston Churchill	John Keegan	nonfiction	true
-The True Believer	Eric Hoffer	nonfiction	true
-Zero to One	Peter Thiel	nonfiction	true
-Measure What Matters	John Doerr	nonfiction	true
-The Lean Startup	Eric Ries	nonfiction	true
-Fooled by Randomness	Nassim Nicholas Taleb	nonfiction	false
-Antifragile	Nassim Nicholas Taleb	nonfiction	false
-The Black Swan	Nassim Nicholas Taleb	nonfiction	true
-Misbehaving	Richard Thaler	nonfiction	true
-The Prince	Niccolo Machiavelli	nonfiction	false
-Digital Minimalism	Cal Newport	nonfiction	true
-Deep Work	Cal Newport	nonfiction	true
-The Pyramid Principle	Barbara Minto	nonfiction	false
-Thinking, Fast and Slow	Daniel Kahneman	nonfiction	true
-Why We Sleep	Matthew Walker	nonfiction	true
-Leviathan	Thomas Hobbes	nonfiction	false
-The Wealth of Nations	Adam Smith	nonfiction	true
-Zen and the Art of Motorcycle Maintenance	Robert M. Pirsig	nonfiction	true
-On the Origin of Species	Charles Darwin	nonfiction	false
-An American Sickness	Elizabeth Rosenthal	nonfiction	true
-Our Mathematical Universe	Max Tegmark	nonfiction	true
-Never Split the Difference	Chris Voss	nonfiction	true
-Principles	Ray Dalio	nonfiction	true
-Lifespan	David Sinclair	nonfiction	true
-Walden	Henry David Thoreau	nonfiction	true
-Payments Systems in the U.S.	Carol Coye Benson	nonfiction	false
-Mahabharata	Vyasa	fiction	false
-Tao Te Ching	Laozi	nonfiction	false
-Meditations	Marcus Aurelius	nonfiction	true
-Capital in the Twenty-First Century	Thomas Piketty	nonfiction	false
-Das Kapital	Karl Marx	nonfiction	false
-Communist Manifesto	Karl Marx	nonfiction	true
-Committed	Elizabeth Gilbert	nonfiction	true
-Rationality: From AI to Zombies	Eliezer Yudkowsky	nonfiction	false
+title	author	category	completed	published
+How to Read a Book	Mortimer J. Adler, Charles Van Doren	nonfiction	true	1940
+Sum	David Eagleman	fiction	true	2009
+Getting Things Done	David Allen	nonfiction	true	2001
+The Selfish Gene	Richard Dawkins	nonfiction	true	1976
+Seeking Wisdom	Peter Bevelin	nonfiction	false	2003
+Atomic Habits	James Clear	nonfiction	true	2018
+The Dream Machine	Mitchell Waldrop	nonfiction	false	2001
+The Art of Doing Science and Engineering	Richard W. Hamming	nonfiction	true	1997
+The Innovator's Dilemma	Clayton Christensen	nonfiction	true	1997
+Stubborn Attachments	Tyler Cowen	nonfiction	true	2018
+How to Win Friends and Influence People	Dale Carnegie	nonfiction	false	1936
+Age of Ambition	Evan Osnos	nonfiction	false	2014
+Sapiens	Yuval Noah Harari	nonfiction	true	2014
+Homo Deus	Yuval Noah Harari	nonfiction	true	2016
+Gödel, Escher, Bach	Douglas Hofstader	nonfiction	false	1979
+Winston Churchill	John Keegan	nonfiction	true	2007
+The True Believer	Eric Hoffer	nonfiction	true	1951
+Zero to One	Peter Thiel	nonfiction	true	2014
+Measure What Matters	John Doerr	nonfiction	true	2018
+The Lean Startup	Eric Ries	nonfiction	true	2011
+Fooled by Randomness	Nassim Nicholas Taleb	nonfiction	false	2001
+Antifragile	Nassim Nicholas Taleb	nonfiction	false	2012
+The Black Swan	Nassim Nicholas Taleb	nonfiction	true	2007
+Misbehaving	Richard Thaler	nonfiction	true	2016
+The Prince	Niccolo Machiavelli	nonfiction	false	1532
+Digital Minimalism	Cal Newport	nonfiction	true	2019
+Deep Work	Cal Newport	nonfiction	true	2016
+Thinking, Fast and Slow	Daniel Kahneman	nonfiction	true	2011
+Why We Sleep	Matthew Walker	nonfiction	true	2017
+Leviathan	Thomas Hobbes	nonfiction	false	1651
+The Wealth of Nations	Adam Smith	nonfiction	true	1776
+Zen and the Art of Motorcycle Maintenance	Robert M. Pirsig	nonfiction	true	1974
+On the Origin of Species	Charles Darwin	nonfiction	false	1859
+An American Sickness	Elizabeth Rosenthal	nonfiction	true	2017
+Our Mathematical Universe	Max Tegmark	nonfiction	true	2014
+Never Split the Difference	Chris Voss	nonfiction	true	2016
+Principles	Ray Dalio	nonfiction	true	2011
+Lifespan	David Sinclair	nonfiction	true	2019
+Walden	Henry David Thoreau	nonfiction	true	1854
+Payments Systems in the U.S.	Carol Coye Benson	nonfiction	false	2010
+Mahabharata	Vyasa	fiction	false	350
+Tao Te Ching	Laozi	nonfiction	false	-350
+Meditations	Marcus Aurelius	nonfiction	true	180
+Capital in the Twenty-First Century	Thomas Piketty	nonfiction	false	2013
+Das Kapital	Karl Marx	nonfiction	false	1867
+Communist Manifesto	Karl Marx	nonfiction	true	1848
+Committed	Elizabeth Gilbert	nonfiction	true	2010
+Rationality: From AI to Zombies	Eliezer Yudkowsky	nonfiction	false	2015
 4-Hour Workweek	Tim Ferriss	nonfiction	true	2007
 Almanack of Naval Ravikant	Eric Jorgensen	nonfiction	true	2020
-Old Testament	Various	nonfiction	false -400
-New Testament	Various	nonfiction	false 95
-Poor Richard's Almanack	Benjamin Franklin	nonfiction	false 1758
+Old Testament	Various	nonfiction	false	-400
+New Testament	Various	nonfiction	false	95
+Poor Richard's Almanack	Benjamin Franklin	nonfiction	false	1758
 Poor Charlie's Almanack	Peter D. Kaufman	nonfiction	true	2005
 Crime and Punishment	Fyodor Dostoevsky	fiction	true	1866
 The Kite Runner	Khaled Hosseini	fiction	true	2003
@@ -61,60 +60,61 @@ Animal Farm	George Orwell	fiction	true	1945
 Nineteen Eighty-Four	George Orwell	fiction	true	1949
 Hitchhiker's Guide to the Galaxy	Douglas Adams	fiction	true	1979
 Restaurant at the End of the Universe	Douglas Adams	fiction	true	1980
-The Great Gatsby	F. Scott Fitzgerald	fiction	true
+The Great Gatsby	F. Scott Fitzgerald	fiction	true	1925
 Lolita	Vladimir Nabokov	fiction	true	1955
-Dialogues	Plato	fiction	false -370
+Dialogues	Plato	fiction	false	-370
 The Catcher in the Rye	J. D. Salinger	fiction	true	1951
 Catch-22	Joseph Heller	fiction	true	1961
 Love in the Time of Cholera	Gabriel Garcia Marquez	fiction	true	1985
-The Picture of Dorian Gray	Oscar Wilde	fiction	false
+The Picture of Dorian Gray	Oscar Wilde	fiction	false	189
 Farenheit 451	Ray Bradbury	fiction	true	1953
 Gulliver's Travels	Jonathan Swift	fiction	true	1726
 Slaughterhouse-Five	Kurt Vonnegut	fiction	true	1969
-War and Peace	Leo Tolstoy	fiction	false 1869
-Anna Karenina	Leo Tolstoy	fiction	false 1878
-Six Easy Pieces	Richard P. Feynman	nonfiction	false 2011
+War and Peace	Leo Tolstoy	fiction	false	1869
+Anna Karenina	Leo Tolstoy	fiction	false	1878
+Six Easy Pieces	Richard P. Feynman	nonfiction	true	2011
 "Surely You're Joking, Mr. Feynman!"	Richard P. Feynman	nonfiction	true	1985
 The Gulag Archipelago	Aleksandr Solzhenitsyn	nonfiction	true	1973
 Cancer Ward	Aleksandr Solzhenitsyn	fiction	false	1966
 Of Mice and Men	John Steinbeck	fiction	false	1937
 Tuesdays with Morrie	Mitch Albom	nonfiction	true	1997
-Oliver Twist	Charles Dickens	fiction	false 1838
-A Tale of Two Cities	Charles Dickens	fiction	false 1859
-The Brothers Karamazov	Fyodor Dostoevsky	fiction	false 1880
-The Castle	Franz Kafka	fiction	true
-The Trial	Franz Kafka	fiction	true
-The Alchemist	Paolo Coelho	fiction	true
-The Curious Incident of the Dog in the Night-Time	Mark Haddon	fiction	false
-The Course of Love	Alain de Botton	fiction	true
-Frankenstein	Mary Shelley	fiction	true
-The Fountainhead	Ayn Rand	fiction	true
-Atlas Shrugged	Ayn Rand	fiction	true
-A Connecticut Yankee in King Arthur's Court	Mark Twain	fiction	false
-Moby Dick	Herman Melville	fiction	false
-Brave New World	Aldous Huxley	fiction	true
-The Odyssey	Homer	fiction	true
-Iliad	Homer	fiction	true
-Metamorphoses	Ovid	fiction	false
-A Fine Balance	Rohinton Mistry	fiction	true
-Heart of Darkness	Joseph Conrad	fiction	true
-The Life You Can Save	Peter Singer	nonfiction	true
-Room	Emma Donoghue	fiction	true
-Wuthering Heights	Emily Bronte	fiction	true
-Don Quixote	Miguel de Cervantes	fiction	true
-The Hunt for Red October	Tom Clancy	fiction	true
-Paradise Lost	John Milton	fiction	false
-Flowers for Algernon	Daniel Keyes	fiction	true
-Exhalation	Ted Chiang	fiction	true
-The Three-Body Problem	Cixin Liu	fiction	false
-V for Vendetta	Alan Moore	fiction	true
-The Sandman	Neil Gaiman	fiction	true
-Oresteia Trilogy	Aeschylus	fiction	true
-Oedipus Trilogy	Sophocles	fiction	true
-Inferno	Dante	fiction	false
-Purgatorio	Dante	fiction	false
-Paradiso	Dante	fiction	false
-Macbeth	William Shakespeare	fiction	true
-King Lear	William Shakespeare	fiction	true
-The Taming of the Shrew	William Shakespeare	fiction	true
-Romeo and Juliet	William Shakespeare	fiction	true
+Oliver Twist	Charles Dickens	fiction	false	1838
+A Tale of Two Cities	Charles Dickens	fiction	false	1859
+The Brothers Karamazov	Fyodor Dostoevsky	fiction	false	1880
+The Castle	Franz Kafka	fiction	true	1926
+The Trial	Franz Kafka	fiction	true	1925
+The Metamorphosis	Franz Kafka	fiction	false	1915
+The Alchemist	Paolo Coelho	fiction	true	1988
+The Curious Incident of the Dog in the Night-Time	Mark Haddon	fiction	false	2003
+The Course of Love	Alain de Botton	fiction	true	2016
+Frankenstein	Mary Shelley	fiction	true	1818
+The Fountainhead	Ayn Rand	fiction	true	1943
+Atlas Shrugged	Ayn Rand	fiction	true	1957
+A Connecticut Yankee in King Arthur's Court	Mark Twain	fiction	false	1889
+Moby Dick	Herman Melville	fiction	false	1851
+Brave New World	Aldous Huxley	fiction	true	1932
+The Odyssey	Homer	fiction	true	-800
+Iliad	Homer	fiction	true	-800
+Metamorphoses	Ovid	fiction	false	8
+A Fine Balance	Rohinton Mistry	fiction	true	1995
+Heart of Darkness	Joseph Conrad	fiction	true	1899
+The Life You Can Save	Peter Singer	nonfiction	true	2010
+Room	Emma Donoghue	fiction	true	2010
+Wuthering Heights	Emily Bronte	fiction	true	1847
+Don Quixote	Miguel de Cervantes	fiction	true	1615
+The Hunt for Red October	Tom Clancy	fiction	true	1984
+Paradise Lost	John Milton	fiction	false	1674
+Flowers for Algernon	Daniel Keyes	fiction	true	1959
+Exhalation	Ted Chiang	fiction	true	2019
+The Three-Body Problem	Cixin Liu	fiction	false	2008
+V for Vendetta	Alan Moore	fiction	true	1982
+The Sandman	Neil Gaiman	fiction	true	1989
+Oresteia Trilogy	Aeschylus	fiction	true	-500
+Oedipus Trilogy	Sophocles	fiction	true	-429
+Inferno	Dante	fiction	false	1318
+Purgatorio	Dante	fiction	false	1319
+Paradiso	Dante	fiction	false	1320
+Macbeth	William Shakespeare	fiction	true	1606
+King Lear	William Shakespeare	fiction	true	1606
+The Taming of the Shrew	William Shakespeare	fiction	true	1590
+Romeo and Juliet	William Shakespeare	fiction	true	1597

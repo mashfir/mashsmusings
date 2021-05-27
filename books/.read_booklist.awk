@@ -22,7 +22,7 @@ BEGIN {
 <hr />\n\
 <div id=\"preamble\">\n\
 <p>\n\
-Having shared booklists with a few people through the inconvenient method of copy-pasting from my to-do app, I figured it easiest to just dump everything I've read here for now. Feel free to reach out to discuss anything that you find interesting.\n\
+Having shared booklists with a few people through the inconvenient method of copy-pasting from my to-do app, I figured it easiest to just dump everything I've read here for now. Feel free to reach out to discuss anything that you find interesting. Books are listed in roughly chronological order.\n\
 </p>\n\
 </div>\n\
 "
@@ -35,25 +35,15 @@ Having shared booklists with a few people through the inconvenient method of cop
     category=$3
     read=$4
     if (read=="true") {
-      if (category=="nonfiction") {
-        i++
-        nf_books[i]="<li><em>" title "</em>. " author ".</li>"
-      } else {
-        j++
-        f_books[j]="<li><em>" title "</em>. " author ".</li>"
-    }
+      i++
+      books[i]="<li><em>" title "</em>. " author ".</li>"
     }
   }
 }
 END {
-  printf "<div id=\"nonfiction\">\n<h4>Nonfiction</h4>\n<ul>"
-  for (i in nf_books) {
-    print nf_books[i]
-  }
-  printf "</ul>\n</div>\n"
-  printf "<div id=\"fiction\">\n<h4>Fiction</h4>\n<ul>"
-  for (j in f_books) {
-    print f_books[j]
+  printf "<div id=\"list\">\n<ul>"
+  for (i in books) {
+    print books[i]
   }
   printf "</ul>\n</div>\n"
   printf "</body>\n</html>"
