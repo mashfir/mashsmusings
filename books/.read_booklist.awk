@@ -29,15 +29,13 @@ Having shared booklists with a few people through the inconvenient method of cop
   printf("<h4>Updated %s</h4>\n", strftime("%b. %-d, %Y"))
 }
 {
-  if (NR > 1) {
-    title=$1
-    author=$2
-    category=$3
-    read=$4
-    if (read=="true") {
-      i++
-      books[i]="<li><em>" title "</em>. " author ".</li>"
-    }
+  title=$1
+  author=$2
+  category=$3
+  read=$4
+  if (read=="true") {
+    i++
+    books[i]="<li><em>" title "</em>. " author ".</li>"
   }
 }
 END {
