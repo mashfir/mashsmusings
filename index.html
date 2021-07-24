@@ -19,6 +19,134 @@
     <!-- LB -->
     <hr />
     <div class="post">
+      <h1>
+        <a href="/posts/when-to-use-window-functions.html"
+          >When to use window functions</a
+        >
+      </h1>
+      <h4>Published Jul. 24, 2021</h4>
+      <p>Learning SQL is often a 6-step process:</p>
+      <ol id="sql-steps">
+        <li>Learn the basic syntax to manipulate a single table.</li>
+        <li>Learn how to join in additional tables.</li>
+        <li>Learn the basics of window functions.</li>
+        <li>
+          <a href="/posts/how-to-grok-sql.html" target="_blank"
+            ><em>Really</em> learn</a
+          >
+          the basic operations.
+        </li>
+        <li><em>Really</em> learn how to use joins.</li>
+        <li><em>Really</em> learn how to use window functions.</li>
+      </ol>
+      <p>
+        One of the first barriers I ran into was in step 3, trying to wrap my
+        head around window functions. Fortunately there are
+        <a
+          href="https://www.toptal.com/sql/intro-to-sql-windows-functions"
+          target="_blank"
+          >many</a
+        >
+        <a
+          href="https://dataschool.com/how-to-teach-people-sql/how-window-functions-work/"
+          target="_blank"
+          >great</a
+        >
+        <a
+          href="https://www.gooddata.com/blog/sql-21st-century-analytic-window-functions/"
+          target="_blank"
+          >resources</a
+        >
+        that provide in-depth explanations of how window functions work which
+        certainly helped me in getting to step 3 and step 6. But I want to focus
+        on perhaps a more important aspect of getting to step 3: when should I
+        even use window functions? What types of problems will they help solve?
+      </p>
+      <p>
+        Fundamentally, when thinking through any SQL problem, one must think in
+        terms of records. What information does each record in the table
+        represent? Do I only care about certain records? Time to think of the
+        <code>WHERE</code>. Do I need records from a different table?
+        <code>FROM</code> clause. Do I care about records in aggregate?
+        <code>GROUP BY</code> clause. Do I only care about specific groups?
+        <code>HAVING</code> clause. The vast majority of the time, this basic
+        syntax will get me what I need. By thinking very carefully about what I
+        want to happen to 3 or 4 records, I can get a sense of the shape of my
+        final query.
+      </p>
+      <p>
+        However, sometimes when breaking down a problem, I run into a roadblock:
+        what if I need information from some other records to compute
+        information about <em>this</em> record? For example, let's say I have
+        daily records of the weather, what if I want to compare today's record
+        against yesterday's record? Running through the list of basic SQL
+        clauses, I realize that none of them quite solve this problem. Enter
+        window functions.
+        <strong
+          >The biggest clue to use window functions is when you need to pull
+          information from other records, into this record.</strong
+        >
+      </p>
+      <p>
+        Okay... Well when is that? Since that statement is a little opaque,
+        let's think of a couple examples and break down how they fit the
+        criteria.
+      </p>
+      <ul id="window-examples">
+        <li>
+          Calculating day-over-day change: To compute day-over-day change, I
+          need to compare the record at time <var>t</var> with the record at
+          time <var>t-1</var>. After a bit of searching, I find that the window
+          function I need is <code>lag(temp) OVER(ORDER BY day)</code>.
+        </li>
+        <li>
+          Calculating 7-day trailing average: Initially this seems like I want
+          to <code>GROUP BY</code> week. But when I break down the problem in
+          terms of records, I realize that what I'm actually trying to do is for
+          time <var>t</var>, take the average of the previous six records,
+          <var>t-6</var>, and this record <var>t</var>. After some searching and
+          trial and error, I find that I need to
+          <code>avg(temp) OVER(ORDER BY day ROWS 6 PRECEDING)</code>.
+        </li>
+        <li>
+          Calculating percent total: Let's say I have a table containing how
+          many steps I've taken by day and I want to figure out what percentage
+          of the total amount of steps each day represents. To do that, I need
+          to compare the record at time <var>t</var> to <em>all</em> the other
+          records across time <var>0</var> to time <var>infinity</var>. In this
+          case, I would need to <code>sum(steps) OVER()</code> the other records
+          to get my denominator.
+        </li>
+        <li>
+          Calculating running total: Now I want to know how many steps I've
+          taken for the entire year. Doing that means that for time
+          <var>t</var>, I need to grab all the records from <var>t=0</var> upto
+          time <var>t</var>. Some more searching would tell me that I need to
+          <code>sum(steps) OVER(ORDER BY day)</code>
+        </li>
+      </ul>
+      <p>
+        Hopefully these examples give you a better picture of when window
+        functions are the right tool to use. They may not be something you use
+        everyday but when you inevitably run into this inter-record problem
+        space, they really make your life easier. As a fun aside, know that all
+        window functions could be replaced by a single CTE and join, which is
+        how these inter-record problems were solved up until recently. Once you
+        start to feel a solid footing on step 3, try replacing your window
+        functions with joins to start the climb to step 4.
+      </p>
+      <footer>
+        <p>
+          This is part of an effort to build a habit of writing, inspired by
+          <a href="https://100daystooffload.com" target="_blank"
+            >#100DaysToOffload</a
+          >. Please feel free to shame me into keeping some pace as I drop off
+          on this.
+        </p>
+      </footer>
+    </div>
+    <hr />
+    <div class="post">
       <h1><a href="/posts/write-differently.html">Write differently</a></h1>
       <h4>Published Jul. 22, 2021</h4>
       <p>
