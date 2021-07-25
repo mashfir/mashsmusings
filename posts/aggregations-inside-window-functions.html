@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aggregations inside window functions</title>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all" />
+  </head>
+  <body>
+    <div id="heading">
+      <h3>Mash's Musings</h3>
+      <ul class="topnav">
+        <li><a href="/">Musings</a></li>
+        <li><a href="/books">Readings</a></li>
+      </ul>
+    </div>
+    <hr />
+    <div id="post">
+      <h1>
+        <a href="/posts/aggregations-inside-window-functions.html"
+          >Aggregations inside window functions</a
+        >
+      </h1>
+      <h4>Published Jul. 24, 2021</h4>
+      <p>
+        I wrote recently about the path of learning SQL and I wanted to take a
+        little excursion into what step 6 can look like. In that recent post, I
+        provided examples of when one can use window functions. We generally
+        want to compare things between days or some other aggregated measure.
+        Unfortunately, as anyone working with data knows, the source data is
+        often at a transactional level with many many records per day. This
+        problem is easily handled by CTEs: first we aggregate our records by day
+        as a CTE and then we apply the window functions to the aggregated CTE.
+        But, did you know that this can (in most SQL engines) be elegantly and
+        concisely written <em>without</em> the use of a CTE? Let's take a look
+        at an example.
+      </p>
+      <p>
+        Let's say that we have a table of temperature recordings and we want to
+        compare the change in daily highs. We have a table
+        <code>temps</code> that records the <code>time</code> and
+        <code>temp</code> at given reading. And because we are sane and
+        sensible, we record our temperature in Celsius.
+      </p>
+      <table>
+        <thead>
+          <tr>
+            <th>time</th>
+            <th>temp</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2021-07-01 12:14:42</td>
+            <td>20.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-01 17:01:14</td>
+            <td>25.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-02 06:08:22</td>
+            <td>18.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-02 20:00:11</td>
+            <td>23.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-03 04:39:21</td>
+            <td>14.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-03 11:30:00</td>
+            <td>21.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-03 22:09:43</td>
+            <td>18.0</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        The first step would involve figuring out the max temperatures for each
+        day.
+      </p>
+      <code>
+        <pre>
+SELECT date_trunc('day', time) AS day, max(temp) AS max_temp
+FROM temps
+GROUP BY 1
+ORDER BY 1
+</pre
+        >
+      </code>
+      <p>Which gets us:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>day</th>
+            <th>max_temp</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2021-07-01</td>
+            <td>25.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-02</td>
+            <td>23.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-03</td>
+            <td>21.0</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Now with a little window function wizardry, we can compute our
+        day-over-day change.
+      </p>
+      <code>
+        <pre>
+WITH daily AS (
+  SELECT date_trunc('day', time) AS day, max(temp) AS max_temp
+  FROM temps
+  GROUP BY 1
+  ORDER BY 1
+)
+SELECT *,
+       lag(max_temp) OVER(ORDER BY day) AS yesterday_max,
+       max_temp - lag(max_temp) OVER(ORDER BY day) AS dod_change
+FROM daily
+</pre
+        >
+      </code>
+      <p>Which gets us:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>day</th>
+            <th>max_temp</th>
+            <th>yesterday_max</th>
+            <th>dod_change</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2021-07-01</td>
+            <td>25.0</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2021-07-02</td>
+            <td>23.0</td>
+            <td>25.0</td>
+            <td>-2.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-03</td>
+            <td>21.0</td>
+            <td>23.0</td>
+            <td>-2.0</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        All is well and we have what we need. But we can do better than that!
+      </p>
+      <code>
+        <pre>
+SELECT date_trunc('day', time) AS day,
+       max(temp) AS max_temp,
+       lag(max(temp)) OVER(ORDER BY date_trunc('day', time)) AS yesterday_max,
+       max(temp) - lag(max(temp)) OVER(ORDER BY date_trunc('day', time)) AS dod_change
+FROM temps
+GROUP BY 1
+ORDER BY 1
+</pre
+        >
+      </code>
+      <table>
+        <thead>
+          <tr>
+            <th>day</th>
+            <th>max_temp</th>
+            <th>yesterday_max</th>
+            <th>dod_change</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2021-07-01</td>
+            <td>25.0</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>2021-07-02</td>
+            <td>23.0</td>
+            <td>25.0</td>
+            <td>-2.0</td>
+          </tr>
+          <tr>
+            <td>2021-07-03</td>
+            <td>21.0</td>
+            <td>23.0</td>
+            <td>-2.0</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>
+        Slick! If you look carefully, all we really did was sub in
+        <code>max(temp)</code> and <code>date_trunc('day', time)</code> into our
+        window function where we previously had used the aliased fields
+        <code>max_temp</code> and <code>day</code> respectively. This nesting
+        can look quite confusing at first, especially if you start doing things
+        like <code>sum(count(*)) OVER()</code> to get the total count of records
+        by day but I think it is wonderfully clear when you understand what's
+        happening.
+      </p>
+      <p>
+        Like all things, practice makes perfect. Don't expect to get this right
+        the first time. But next time you see this pattern of aggregation then
+        window function, stretch yourself and see if you can do it in one shot.
+        Who knows who you can become with all the extra time saved from writing
+        those 5 extra lines of code!?
+      </p>
+      <footer>
+        <p>
+          This is part of an effort to build a habit of writing, inspired by
+          <a href="https://100daystooffload.com" target="_blank"
+            >#100DaysToOffload</a
+          >. Please feel free to shame me into keeping some pace as I drop off
+          on this.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
