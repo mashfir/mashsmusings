@@ -1,4 +1,5 @@
 Hard-Boiled Wonderland and the End of the World Haruki Murakami	fiction	true	1985
+The Wind-Up Bird Chronicle  Haruki Murakami	fiction	false	1994
 Norweigan Wood	Haruki Murakami	fiction	true	1987
 How to Read a Book	Mortimer J. Adler, Charles Van Doren	nonfiction	true	1940
 Sum	David Eagleman	fiction	true	2009
@@ -6,9 +7,12 @@ Getting Things Done	David Allen	nonfiction	true	2001
 The Selfish Gene	Richard Dawkins	nonfiction	true	1976
 Epic of Gilgamesh	Various	fiction	false	-2100
 Seeking Wisdom	Peter Bevelin	nonfiction	false	2003
+Madame Bovary	Gustave Flaubert	fiction	false	1856
 War is a Racket	Smedley Butler	nonfiction	true	1935
 Atomic Habits	James Clear	nonfiction	true	2018
 The Call of the Wild	Jack London	fiction	true	1903
+White Fang	Jack London	fiction	false	1906
+The Scarlet Letter	Nathaniel Hawthorne	fiction	false	1850
 The Dream Machine	Mitchell Waldrop	nonfiction	false	2001
 The Art of Doing Science and Engineering	Richard W. Hamming	nonfiction	true	1997
 The Innovator's Dilemma	Clayton Christensen	nonfiction	true	1997
@@ -48,6 +52,11 @@ Mahabharata	Vyasa	fiction	false	350
 Tao Te Ching	Laozi	nonfiction	false	-350
 Meditations	Marcus Aurelius	nonfiction	true	180
 On the Road	Jack Kerouac	fiction	true	1957
+Maus	Art Spiegelman	fiction	true	1991
+Foundation	Isaac Asimov	fiction	false	1951
+Candide	Voltaire	fiction	false	1759
+Les Miserables	Victor Hugo	fiction	false	1862
+History of the Peloponnesian War	Thucydides	nonfiction	false	-400
 Capital in the Twenty-First Century	Thomas Piketty	nonfiction	false	2013
 Progress and Poverty	Henry George	nonfiction	true	1879
 Das Kapital	Karl Marx	nonfiction	false	1867
@@ -92,6 +101,9 @@ Grapes of Wrath	John Steinbeck	fiction	false	1939
 Tuesdays with Morrie	Mitch Albom	nonfiction	true	1997
 Oliver Twist	Charles Dickens	fiction	false	1838
 A Tale of Two Cities	Charles Dickens	fiction	false	1859
+As I Lay Dying	William Faulkner	fiction	false	1930
+The Old Man and the Sea	Ernest Hemingway	fiction	false	1952
+For Whom the Bell Tolls	Ernest Hemingway	fiction	false	1940
 The Brothers Karamazov	Fyodor Dostoevsky	fiction	false	1880
 The Castle	Franz Kafka	fiction	true	1926
 The Trial	Franz Kafka	fiction	true	1925
@@ -107,7 +119,9 @@ Moby Dick	Herman Melville	fiction	false	1851
 Brave New World	Aldous Huxley	fiction	true	1932
 The Odyssey	Homer	fiction	true	-800
 Iliad	Homer	fiction	true	-800
-Metamorphoses	Ovid	fiction	false	8
+The Aeneid	Virgil	fiction	false	-12
+Metamorphoses	Ovid	fiction	true	8
+Quest of the Holy Grail	Unknown	fiction	false	1210
 A Fine Balance	Rohinton Mistry	fiction	true	1995
 Heart of Darkness	Joseph Conrad	fiction	true	1899
 The Life You Can Save	Peter Singer	nonfiction	true	2010
