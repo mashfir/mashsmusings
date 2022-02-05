@@ -1,6 +1,7 @@
 Hard-Boiled Wonderland and the End of the World Haruki Murakami	fiction	true	1985
 The Wind-Up Bird Chronicle  Haruki Murakami	fiction	false	1994
 Norweigan Wood	Haruki Murakami	fiction	true	1987
+Siddhartha	Hermann Hesse	fiction	false	1922
 How to Read a Book	Mortimer J. Adler, Charles Van Doren	nonfiction	true	1940
 Sum	David Eagleman	fiction	true	2009
 Getting Things Done	David Allen	nonfiction	true	2001
@@ -8,6 +9,7 @@ The Selfish Gene	Richard Dawkins	nonfiction	true	1976
 Epic of Gilgamesh	Various	fiction	false	-2100
 Seeking Wisdom	Peter Bevelin	nonfiction	false	2003
 Madame Bovary	Gustave Flaubert	fiction	false	1856
+All Quiet on the Western Front	Erich Maria Remarque	fiction	false	1929
 War is a Racket	Smedley Butler	nonfiction	true	1935
 Atomic Habits	James Clear	nonfiction	true	2018
 The Call of the Wild	Jack London	fiction	true	1903
@@ -48,13 +50,14 @@ Principles	Ray Dalio	nonfiction	true	2011
 Principles for Dealing with the Changing World Order	Ray Dalio	nonfiction	false	2021
 Lifespan	David Sinclair	nonfiction	true	2019
 Walden	Henry David Thoreau	nonfiction	true	1854
-Payments Systems in the U.S.	Carol Coye Benson	nonfiction	false	2010
+Civil Disobedience	Henry David Thoreau	nonfiction	false	1854
+Payments Systems in the U.S.	Carol Coye Benson	nonfiction	true	2010
 Mahabharata	Vyasa	fiction	false	350
 Tao Te Ching	Laozi	nonfiction	false	-350
 Meditations	Marcus Aurelius	nonfiction	true	180
 On the Road	Jack Kerouac	fiction	true	1957
 Maus	Art Spiegelman	fiction	true	1991
-Foundation	Isaac Asimov	fiction	false	1951
+Foundation	Isaac Asimov	fiction	true	1951
 Candide	Voltaire	fiction	false	1759
 Les Miserables	Victor Hugo	fiction	false	1862
 History of the Peloponnesian War	Thucydides	nonfiction	false	-400
