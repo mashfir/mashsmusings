@@ -1,7 +1,8 @@
 Hard-Boiled Wonderland and the End of the World Haruki Murakami	fiction	true	1985
 The Wind-Up Bird Chronicle  Haruki Murakami	fiction	false	1994
 Norweigan Wood	Haruki Murakami	fiction	true	1987
-Siddhartha	Hermann Hesse	fiction	false	1922
+Siddhartha	Hermann Hesse	fiction	true	1922
+Dune	Frank Herbert	fiction	true	1965
 How to Read a Book	Mortimer J. Adler, Charles Van Doren	nonfiction	true	1940
 Sum	David Eagleman	fiction	true	2009
 Getting Things Done	David Allen	nonfiction	true	2001
@@ -9,7 +10,7 @@ The Selfish Gene	Richard Dawkins	nonfiction	true	1976
 Epic of Gilgamesh	Various	fiction	false	-2100
 Seeking Wisdom	Peter Bevelin	nonfiction	false	2003
 Madame Bovary	Gustave Flaubert	fiction	false	1856
-All Quiet on the Western Front	Erich Maria Remarque	fiction	false	1929
+All Quiet on the Western Front	Erich Maria Remarque	fiction	true	1929
 War is a Racket	Smedley Butler	nonfiction	true	1935
 Atomic Habits	James Clear	nonfiction	true	2018
 The Call of the Wild	Jack London	fiction	true	1903
@@ -50,12 +51,13 @@ Principles	Ray Dalio	nonfiction	true	2011
 Principles for Dealing with the Changing World Order	Ray Dalio	nonfiction	false	2021
 Lifespan	David Sinclair	nonfiction	true	2019
 Walden	Henry David Thoreau	nonfiction	true	1854
-Civil Disobedience	Henry David Thoreau	nonfiction	false	1854
+Civil Disobedience	Henry David Thoreau	nonfiction	true	1854
 Payments Systems in the U.S.	Carol Coye Benson	nonfiction	true	2010
 Mahabharata	Vyasa	fiction	false	350
 Tao Te Ching	Laozi	nonfiction	false	-350
 Meditations	Marcus Aurelius	nonfiction	true	180
 On the Road	Jack Kerouac	fiction	true	1957
+The Adventures of Sherlock Holmes	Sir Arthur Conan Doyle	fiction	true	1892
 Maus	Art Spiegelman	fiction	true	1991
 Foundation	Isaac Asimov	fiction	true	1951
 Candide	Voltaire	fiction	false	1759
@@ -66,6 +68,7 @@ Progress and Poverty	Henry George	nonfiction	true	1879
 Das Kapital	Karl Marx	nonfiction	false	1867
 Communist Manifesto	Karl Marx	nonfiction	true	1848
 Committed	Elizabeth Gilbert	nonfiction	true	2010
+What I Learned Losing a Million Dollars	Jim Paul	nonfiction	true	2014
 Rationality: From AI to Zombies	Eliezer Yudkowsky	nonfiction	false	2015
 4-Hour Workweek	Tim Ferriss	nonfiction	true	2007
 Almanack of Naval Ravikant	Eric Jorgensen	nonfiction	true	2020
