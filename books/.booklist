@@ -60,7 +60,7 @@ On the Road	Jack Kerouac	fiction	true	1957
 The Adventures of Sherlock Holmes	Sir Arthur Conan Doyle	fiction	true	1892
 Maus	Art Spiegelman	fiction	true	1991
 Foundation	Isaac Asimov	fiction	true	1951
-Candide	Voltaire	fiction	false	1759
+Candide	Voltaire	fiction	true	1759
 Les Miserables	Victor Hugo	fiction	false	1862
 History of the Peloponnesian War	Thucydides	nonfiction	false	-400
 Capital in the Twenty-First Century	Thomas Piketty	nonfiction	false	2013
@@ -132,7 +132,9 @@ Quest of the Holy Grail	Unknown	fiction	false	1210
 A Fine Balance	Rohinton Mistry	fiction	true	1995
 Heart of Darkness	Joseph Conrad	fiction	true	1899
 The Life You Can Save	Peter Singer	nonfiction	true	2010
+12 Rules for Life	Jordan Peterson	nonfiction	true	2018
 Room	Emma Donoghue	fiction	true	2010
+Ender's Game	Orson Scott Card	fiction	true	1985
 Wuthering Heights	Emily Bronte	fiction	true	1847
 Don Quixote	Miguel de Cervantes	fiction	true	1615
 The Hunt for Red October	Tom Clancy	fiction	true	1984
