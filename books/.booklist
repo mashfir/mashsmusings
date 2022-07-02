@@ -16,6 +16,8 @@ War is a Racket	Smedley Butler	nonfiction	true	1935
 Atomic Habits	James Clear	nonfiction	true	2018
 The Call of the Wild	Jack London	fiction	true	1903
 White Fang	Jack London	fiction	false	1906
+The Handmaid's Tale	Margaret Atwood	fiction	true	1985
+The Testaments	Margaret Atwood	fiction	true	2019
 The Scarlet Letter	Nathaniel Hawthorne	fiction	false	1850
 The Dream Machine	Mitchell Waldrop	nonfiction	true	2001
 The Art of Doing Science and Engineering	Richard W. Hamming	nonfiction	true	1997
@@ -36,7 +38,7 @@ Fooled by Randomness	Nassim Nicholas Taleb	nonfiction	false	2001
 Antifragile	Nassim Nicholas Taleb	nonfiction	false	2012
 The Black Swan	Nassim Nicholas Taleb	nonfiction	true	2007
 Misbehaving	Richard Thaler	nonfiction	true	2016
-The Prince	Niccolo Machiavelli	nonfiction	false	1532
+The Prince	Niccolo Machiavelli	nonfiction	true	1532
 A World Without Email	Cal Newport	nonfiction	true	2021
 Digital Minimalism	Cal Newport	nonfiction	true	2019
 Deep Work	Cal Newport	nonfiction	true	2016
@@ -109,7 +111,7 @@ Of Mice and Men	John Steinbeck	fiction	false	1937
 Grapes of Wrath	John Steinbeck	fiction	false	1939
 Tuesdays with Morrie	Mitch Albom	nonfiction	true	1997
 Oliver Twist	Charles Dickens	fiction	false	1838
-A Tale of Two Cities	Charles Dickens	fiction	false	1859
+A Tale of Two Cities	Charles Dickens	fiction	true	1859
 As I Lay Dying	William Faulkner	fiction	false	1930
 The Old Man and the Sea	Ernest Hemingway	fiction	false	1952
 For Whom the Bell Tolls	Ernest Hemingway	fiction	false	1940
