@@ -66,6 +66,9 @@ Maus	Art Spiegelman	fiction	true	1991
 Foundation	Isaac Asimov	fiction	true	1951
 Candide	Voltaire	fiction	true	1759
 Les Miserables	Victor Hugo	fiction	false	1862
+Do Androids Dream of Electric Sheep?	Philip K. Dick	fiction	false	1968
+Evicted	Matthew Desmond	nonfiction	true	2016
+Treatise on the Laws	Cicero	nonfiction	true	52
 History of the Peloponnesian War	Thucydides	nonfiction	false	-400
 Capital in the Twenty-First Century	Thomas Piketty	nonfiction	false	2013
 Progress and Poverty	Henry George	nonfiction	true	1879
@@ -108,7 +111,7 @@ Six Easy Pieces	Richard P. Feynman	nonfiction	true	2011
 "Surely You're Joking, Mr. Feynman!"	Richard P. Feynman	nonfiction	true	1985
 The Gulag Archipelago	Aleksandr Solzhenitsyn	nonfiction	true	1973
 Cancer Ward	Aleksandr Solzhenitsyn	fiction	false	1966
-Of Mice and Men	John Steinbeck	fiction	false	1937
+Of Mice and Men	John Steinbeck	fiction	true	1937
 Grapes of Wrath	John Steinbeck	fiction	false	1939
 Tuesdays with Morrie	Mitch Albom	nonfiction	true	1997
 Oliver Twist	Charles Dickens	fiction	false	1838
