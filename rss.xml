@@ -12,6 +12,35 @@
     <!-- LB -->
 
 <item>
+<title>Clients and servers and bears, oh my!</title>
+<guid>https://mashsmusings.neocities.org/index.html#clients-and-servers-and-bears-oh-my</guid>
+<pubDate>Sun, 11 Sep 2022 13:20:29 -0700</pubDate>
+<description><![CDATA[
+<p>
+I recently read a funny <a href="https://amoderatelyattractivemind.wordpress.com/2022/08/01/things-i-learned-way-too-late-in-life/" target="_blank">blog post</a> on things learned way too late in life. While there are certainly no shortage of such things to share, I have found some of my biggest "woah" moments in the last few years to be in the world of computers. Being pretty new to the field and largely self-taught, I consistently have the bittersweet experience of noticing a glaring blindspot and the lightbulb moment once the gap is filled in.
+</p>
+
+<p>
+1. Clients, servers, hosts, oh my...
+Understanding the whole client-server thing was one of these experiences. These concepts are thrown around in almost any slightly technical computing context but for most of my life I just slowly nodded my head along without really getting it. It wasn't until I heard someone describe a server as "someone else's computer" that it clicked for me. While that is a bit reductive, I think it's a helpful reminder as we think of the original analogy.
+</p>
+
+<p>
+Imagine that you're hungry suburbanite and you're walking down a strip mall of restaurants, deciding whether you really want to hit Subway after that "Subway man" scandal or if you'd rather deal with the screaming children at Appleby's. As you, the <em>client</em>, are <em>browsing</em> you decide that Subway was in part responsible for Jared Fogle's actions and decide on Appleby's as your <em>host</em> of choice. You, the client, are met by the <em>server</em> who takes your order, and after some time, serves up your <em>request</em>.
+</p>
+
+<p>
+In computing this is why your web browser is often referred to as the client. As you browse a website, there is a host computer, or server, which brings you the files displayed on your computer. The internet is conceptually just the mode of communication between these computers. Cool, right?
+</p>
+
+<p>
+This post was definitively <em>not</em> sponsored by Subway.
+</p>
+]]></description>
+</item>
+
+
+<item>
 <title>My favorite interview question</title>
 <guid>https://mashsmusings.neocities.org/index.html#my-favorite-interview-question</guid>
 <pubDate>Sun, 23 Jan 2022 17:51:10 -0800</pubDate>
