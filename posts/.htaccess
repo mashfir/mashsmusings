@@ -37,7 +37,6 @@ AddDescription "What is worth crying about" "what-is-worth-crying-about.html" #S
 AddDescription "Pains of jankiness" "pains-of-jankiness.html" #Sun, 30 May 2021 22:00:39 -0700
 AddDescription "How not to exercise" "how-not-to-exercise.html" #Mon, 31 May 2021 16:54:53 -0700
 AddDescription "Cringing at your own work" "cringing-at-your-own-work.html" #Wed, 02 Jun 2021 18:45:14 -0700
-<<<<<<< HEAD
 AddDescription "Book club basics" "book-club-basics.html" #Sat, 05 Jun 2021 21:53:16 -0700
 AddDescription "Food for thought" "food-for-thought.html" #Sun, 06 Jun 2021 20:53:28 -0700
 AddDescription "Disney, Grimm, and the Holy Scripture" "disney-grimm-and-the-holy-scripture.html" #Wed, 09 Jun 2021 19:13:44 -0700
@@ -66,4 +65,4 @@ AddDescription "Return to office observations" "return-to-office-observations.ht
 AddDescription "My favorite interview question" "my-favorite-interview-question.html" #Sun, 23 Jan 2022 17:51:10 -0800
 AddDescription "Illuminations of a late blooming techie" "illuminations-of-a-late-blooming-techie.html"
 AddDescription "Clients and servers and bears, oh my!" "clients-and-servers-and-bears-oh-my.html" #Sun, 11 Sep 2022 13:20:29 -0700
-AddDescription "How to read a URL" "how-to-read-a-url.html"
+AddDescription "How to read a URL" "how-to-read-a-url.html" #Sun, 11 Sep 2022 19:19:12 -0700

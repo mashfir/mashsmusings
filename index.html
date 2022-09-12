@@ -19,6 +19,126 @@
     <!-- LB -->
     <hr />
     <div class="post">
+      <h1><a href="/posts/how-to-read-a-url.html"></a></h1>
+      <h4>Published Sep. 11, 2022</h4>
+      <p>
+        I recently read a funny
+        <a
+          href="https://amoderatelyattractivemind.wordpress.com/2022/08/01/things-i-learned-way-too-late-in-life/"
+          target="_blank"
+          >blog post</a
+        >
+        on things learned way too late in life. While there are certainly no
+        shortage of such things to share, I have found some of my biggest "woah"
+        moments in the last few years to be in the world of computers. Being
+        pretty new to the field and largely self-taught, I consistently have the
+        bittersweet experience of noticing a glaring blindspot and the lightbulb
+        moment once the gap is filled in.
+      </p>
+
+      <p>
+        One of these unintuitive blind spots for me had to do with reading URLs.
+        As an example, let's take the URL of this web page as an example:
+      </p>
+      <code>
+        <pre>
+https://mashsmusings.neocities.org/posts/how-to-read-a-url.html
+	</pre
+        >
+      </code>
+
+      <p>
+        If you are at all literate in English, you tend to read from left to
+        right. Thus, I would have interpreted the URL as, "Some mumbo-jumbo
+        colon-slash-slash, then the mashsmusings site which has something to do
+        with neocities and is part of an org, then reading a specific post
+        within 'posts'." While the left-to-right heuristic is great 99% of time,
+        it unfortunately doesn't work when reading your favorite waifu manga
+        and, confusingly, only <em>mostly</em> works for reading URLs. To see
+        what I mean, let's dig into the different components of our URL.
+      </p>
+
+      <code>
+        <pre>
+https://mashsmusings.neocities.org/posts/how-to-read-a-url.html
+<------><------------------------><-----><-------------------->
+   1                2                3             4
+	</pre
+        >
+      </code>
+
+      <ol id="url-components">
+        <li>
+          <dfn>protocol</dfn>: This part is kind of complicated but, in short,
+          this defines what set of instructions needs to be used to read the
+          resource. This will almost always be Hypertext Transfer Protocol to
+          read from web servers but sometimes you might run into something like
+          "mailto:" which initiates an email message to a specific email
+          address.
+        </li>
+
+        <li>
+          <dfn>domain</dfn>: The domain can be thought of as the human-readable
+          name of a server, AKA
+          <a
+            href="/posts/clients-and-servers-and-bears-oh-my.html"
+            target="_blank"
+            >someone else's computer</a
+          >. Confusingly, domain names are interpreted in
+          <em>reverse order</em> and in hierarchical fashion. So in our example,
+          our top-level domain (TLD) is "org", "neocities" is a single subdomain
+          under "org", and "mashsmusings" is a single subdomain under
+          "neocities". This backwards-reading domain tells us which computer on
+          the internet we're interacting with.
+        </li>
+
+        <li>
+          <dfn>path name</dfn>: The series of folders you can imagine clicking
+          through on the server's hard drive. In our example, this is the
+          "/posts" directory under the root directory.
+        </li>
+
+        <li>
+          <dfn>file name</dfn>: The name of the actual file you are requesting
+          from the server in the directory specified by the path name
+          beforehand, including the extension associated with that file. This is
+          usually a ".html" file specifying a web page but sometimes it can be a
+          <a
+            href="https://i.kym-cdn.com/photos/images/original/000/112/566/business.jpg"
+            target="_blank"
+            >.jpg</a
+          >
+          or
+          <a
+            href="https://ia804609.us.archive.org/4/items/rick-roll/Rick%20Roll.mp4"
+            target="_blank"
+            >.mp4</a
+          >
+          for an image or video clip respectively.
+        </li>
+      </ol>
+
+      <p>
+        Putting this all together gives a more illuminating interpretation than
+        the one prior. Now the same URL can be interpreted as "Using the HTTPS
+        protocol, go to the server registered as 'mashsmusings', a subdomain of
+        'neocities', a subdomain of 'org'; go to the posts folder, and get me
+        the file called 'how-to-read-a-url.html'". Despite being an avid
+        internet user since age 7, I never picked this up until I had to set up
+        my own site &mdash; the more you know!
+      </p>
+
+      <p>
+        As a side note, learning about domain hierarchies being read right to
+        left, made me wonder why most sites have the terminal subdomain "www".
+        Turns out, it's completely pointless! Having a "www" subdomain was a
+        legacy convention to specifying that your server was on the Worldwide
+        web but over time, that convention has fallen away in favor of clearer,
+        more concise domain names. Not everything has a good reason.
+      </p>
+    </div>
+    <hr />
+    <div class="post">
       <h1>
         <a href="/posts/clients-and-servers-and-bears-oh-my.html"
           >Clients and servers and bears, oh my!</a
