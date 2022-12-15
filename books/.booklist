@@ -43,8 +43,11 @@ The Prince	Niccolo Machiavelli	nonfiction	true	1532
 A World Without Email	Cal Newport	nonfiction	true	2021
 Digital Minimalism	Cal Newport	nonfiction	true	2019
 Deep Work	Cal Newport	nonfiction	true	2016
+Shape Up	Ryan Singer	nonfiction	true	2019
 Thinking, Fast and Slow	Daniel Kahneman	nonfiction	true	2011
 Why We Sleep	Matthew Walker	nonfiction	true	2017
+The Happiness Hypothesis	Jonathan Haidt	nonfiction	false	2006
+The Second Sex	Simone de Beauvoir	nonfiction	true	1949
 Leviathan	Thomas Hobbes	nonfiction	false	1651
 The Wealth of Nations	Adam Smith	nonfiction	true	1776
 Zen and the Art of Motorcycle Maintenance	Robert M. Pirsig	nonfiction	true	1974
@@ -61,6 +64,7 @@ Payments Systems in the U.S.	Carol Coye Benson	nonfiction	true	2010
 Mahabharata	Vyasa	fiction	false	350
 Tao Te Ching	Laozi	nonfiction	false	-350
 Meditations	Marcus Aurelius	nonfiction	true	180
+Station Eleven	Emily St. John Mandel	fiction	true	2014
 On the Road	Jack Kerouac	fiction	true	1957
 The Adventures of Sherlock Holmes	Sir Arthur Conan Doyle	fiction	true	1892
 Maus	Art Spiegelman	fiction	true	1991
@@ -115,6 +119,7 @@ Cancer Ward	Aleksandr Solzhenitsyn	fiction	false	1966
 Of Mice and Men	John Steinbeck	fiction	true	1937
 Grapes of Wrath	John Steinbeck	fiction	false	1939
 Tuesdays with Morrie	Mitch Albom	nonfiction	true	1997
+A Christmas Carol	Charles Dickens	fiction	true	1843
 Oliver Twist	Charles Dickens	fiction	false	1838
 A Tale of Two Cities	Charles Dickens	fiction	true	1859
 As I Lay Dying	William Faulkner	fiction	false	1930
