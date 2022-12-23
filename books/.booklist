@@ -5,6 +5,8 @@ Siddhartha	Hermann Hesse	fiction	true	1922
 Dune	Frank Herbert	fiction	true	1965
 How to Read a Book	Mortimer J. Adler, Charles Van Doren	nonfiction	true	1940
 Mindsight	Daniel J. Siegel	nonfiction	false	2010
+Breath	James Nestor	nonfiction	false	2020
+Goodbye, again	Jonny Sun	nonfiction	false	2021
 Sum	David Eagleman	fiction	true	2009
 Getting Things Done	David Allen	nonfiction	true	2001
 The Selfish Gene	Richard Dawkins	nonfiction	true	1976
@@ -12,6 +14,9 @@ The Zimmermann Telegram	Barbara W. Tuchman	nonfiction	true	1985
 Epic of Gilgamesh	Various	fiction	false	-2100
 Seeking Wisdom	Peter Bevelin	nonfiction	false	2003
 Madame Bovary	Gustave Flaubert	fiction	false	1856
+Stranger in a Strange Land	Robert Heinlein	fiction	false	1961
+Starship Troopers	Robert Heinlein	fiction	false	1959
+The Moon is a Harsh Mistress	Robert Heinlein	fiction	false	1966
 All Quiet on the Western Front	Erich Maria Remarque	fiction	true	1929
 War is a Racket	Smedley Butler	nonfiction	true	1935
 Atomic Habits	James Clear	nonfiction	true	2018
@@ -156,7 +161,7 @@ Paradise Lost	John Milton	fiction	false	1674
 Utopia	Thomas More	fiction	true	1516
 Flowers for Algernon	Daniel Keyes	fiction	true	1959
 Exhalation	Ted Chiang	fiction	true	2019
-The Three-Body Problem	Cixin Liu	fiction	false	2008
+The Three-Body Problem	Cixin Liu	fiction	true	2008
 V for Vendetta	Alan Moore	fiction	true	1982
 The Sandman	Neil Gaiman	fiction	true	1989
 Oresteia Trilogy	Aeschylus	fiction	true	-500
