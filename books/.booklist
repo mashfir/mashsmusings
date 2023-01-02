@@ -5,8 +5,8 @@ Siddhartha	Hermann Hesse	fiction	true	1922
 Dune	Frank Herbert	fiction	true	1965
 How to Read a Book	Mortimer J. Adler, Charles Van Doren	nonfiction	true	1940
 Mindsight	Daniel J. Siegel	nonfiction	false	2010
-Breath	James Nestor	nonfiction	false	2020
-Goodbye, again	Jonny Sun	nonfiction	false	2021
+Breath	James Nestor	nonfiction	true	2020
+Goodbye, again	Jonny Sun	nonfiction	true	2021
 Sum	David Eagleman	fiction	true	2009
 Getting Things Done	David Allen	nonfiction	true	2001
 The Selfish Gene	Richard Dawkins	nonfiction	true	1976
@@ -30,6 +30,7 @@ The Art of Doing Science and Engineering	Richard W. Hamming	nonfiction	true	1997
 The Innovator's Dilemma	Clayton Christensen	nonfiction	true	1997
 Stubborn Attachments	Tyler Cowen	nonfiction	true	2018
 How to Win Friends and Influence People	Dale Carnegie	nonfiction	false	1936
+Flatland	Edwin Abbott	nonfiction	false	1884
 Age of Ambition	Evan Osnos	nonfiction	false	2014
 Sapiens	Yuval Noah Harari	nonfiction	true	2014
 Homo Deus	Yuval Noah Harari	nonfiction	true	2016
