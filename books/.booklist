@@ -30,7 +30,7 @@ The Art of Doing Science and Engineering	Richard W. Hamming	nonfiction	true	1997
 The Innovator's Dilemma	Clayton Christensen	nonfiction	true	1997
 Stubborn Attachments	Tyler Cowen	nonfiction	true	2018
 How to Win Friends and Influence People	Dale Carnegie	nonfiction	false	1936
-Flatland	Edwin Abbott	nonfiction	false	1884
+Flatland	Edwin Abbott	nonfiction	true	1884
 Age of Ambition	Evan Osnos	nonfiction	false	2014
 Sapiens	Yuval Noah Harari	nonfiction	true	2014
 Homo Deus	Yuval Noah Harari	nonfiction	true	2016
@@ -53,6 +53,7 @@ Shape Up	Ryan Singer	nonfiction	true	2019
 Thinking, Fast and Slow	Daniel Kahneman	nonfiction	true	2011
 Why We Sleep	Matthew Walker	nonfiction	true	2017
 The Happiness Hypothesis	Jonathan Haidt	nonfiction	true	2006
+San Fransicko	Michael Shellenberger	nonfiction	true	2021
 The Second Sex	Simone de Beauvoir	nonfiction	true	1949
 Leviathan	Thomas Hobbes	nonfiction	false	1651
 The Wealth of Nations	Adam Smith	nonfiction	true	1776
@@ -129,7 +130,7 @@ A Christmas Carol	Charles Dickens	fiction	true	1843
 Oliver Twist	Charles Dickens	fiction	false	1838
 A Tale of Two Cities	Charles Dickens	fiction	true	1859
 As I Lay Dying	William Faulkner	fiction	false	1930
-The Old Man and the Sea	Ernest Hemingway	fiction	false	1952
+The Old Man and the Sea	Ernest Hemingway	fiction	true	1952
 For Whom the Bell Tolls	Ernest Hemingway	fiction	false	1940
 The Brothers Karamazov	Fyodor Dostoevsky	fiction	false	1880
 The Castle	Franz Kafka	fiction	true	1926
