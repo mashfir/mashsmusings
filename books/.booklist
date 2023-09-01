@@ -14,7 +14,7 @@ The Zimmermann Telegram	Barbara W. Tuchman	nonfiction	true	1985
 Epic of Gilgamesh	Various	fiction	false	-2100
 Seeking Wisdom	Peter Bevelin	nonfiction	false	2003
 Madame Bovary	Gustave Flaubert	fiction	false	1856
-Stranger in a Strange Land	Robert Heinlein	fiction	false	1961
+Stranger in a Strange Land	Robert Heinlein	fiction	true	1961
 Starship Troopers	Robert Heinlein	fiction	false	1959
 The Moon is a Harsh Mistress	Robert Heinlein	fiction	false	1966
 All Quiet on the Western Front	Erich Maria Remarque	fiction	true	1929
@@ -129,6 +129,8 @@ Slaughterhouse-Five	Kurt Vonnegut	fiction	true	1969
 Art of War	Sun Tzu	nonfiction	true	-450
 War and Peace	Leo Tolstoy	fiction	false	1869
 Anna Karenina	Leo Tolstoy	fiction	true	1878
+A Fair Country	John Ralston Saul	nonfiction	false	2008
+The Death and Life of Great American Cities	Jane Jacobs	nonfiction	false	1961
 The Death of Ivan Ilych	Leo Tolstoy	fiction	false	1886
 Six Easy Pieces	Richard P. Feynman	nonfiction	true	2011
 "Surely You're Joking, Mr. Feynman!"	Richard P. Feynman	nonfiction	true	1985
