@@ -91,6 +91,7 @@ Les Miserables	Victor Hugo	fiction	false	1862
 Do Androids Dream of Electric Sheep?	Philip K. Dick	fiction	true	1968
 Evicted	Matthew Desmond	nonfiction	true	2016
 Poverty, by America	Matthew Desmond	nonfiction	true	2023
+Nomadland	Jessica Bruder	nonfiction	true	2017
 Treatise on the Laws	Cicero	nonfiction	true	52
 History of the Peloponnesian War	Thucydides	nonfiction	false	-400
 Capital in the Twenty-First Century	Thomas Piketty	nonfiction	false	2013
@@ -146,7 +147,7 @@ A Tale of Two Cities	Charles Dickens	fiction	true	1859
 As I Lay Dying	William Faulkner	fiction	false	1930
 The Old Man and the Sea	Ernest Hemingway	fiction	true	1952
 For Whom the Bell Tolls	Ernest Hemingway	fiction	false	1940
-The Brothers Karamazov	Fyodor Dostoevsky	fiction	false	1880
+The Brothers Karamazov	Fyodor Dostoevsky	fiction	true	1880
 The Castle	Franz Kafka	fiction	true	1926
 The Trial	Franz Kafka	fiction	true	1925
 The Metamorphosis	Franz Kafka	fiction	false	1915
