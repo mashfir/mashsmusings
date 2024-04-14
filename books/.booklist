@@ -20,7 +20,7 @@ Same Bed Different Dreams	Ed Park	fiction	true	2023
 Madame Bovary	Gustave Flaubert	fiction	false	1856
 Stranger in a Strange Land	Robert Heinlein	fiction	true	1961
 Starship Troopers	Robert Heinlein	fiction	false	1959
-The Moon is a Harsh Mistress	Robert Heinlein	fiction	false	1966
+The Moon is a Harsh Mistress	Robert Heinlein	fiction	true	1966
 All Quiet on the Western Front	Erich Maria Remarque	fiction	true	1929
 War is a Racket	Smedley Butler	nonfiction	true	1935
 Atomic Habits	James Clear	nonfiction	true	2018
@@ -30,6 +30,7 @@ Pachinko	Min Jin Lee	fiction	true	2017
 The Handmaid's Tale	Margaret Atwood	fiction	true	1985
 The Testaments	Margaret Atwood	fiction	true	2019
 The Scarlet Letter	Nathaniel Hawthorne	fiction	false	1850
+Bowling Alone	Robert D. Putnam	nonfiction	false	2000
 The Dream Machine	Mitchell Waldrop	nonfiction	true	2001
 The Art of Doing Science and Engineering	Richard W. Hamming	nonfiction	true	1997
 The Innovator's Dilemma	Clayton Christensen	nonfiction	true	1997
