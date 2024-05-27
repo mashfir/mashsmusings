@@ -29,8 +29,10 @@ White Fang	Jack London	fiction	false	1906
 Pachinko	Min Jin Lee	fiction	true	2017
 The Handmaid's Tale	Margaret Atwood	fiction	true	1985
 The Testaments	Margaret Atwood	fiction	true	2019
+The Andromeda Strain	Michael Crichton	fiction	false	1969
+Pride and Prejudice	Jane Austen	fiction	false	1813
 The Scarlet Letter	Nathaniel Hawthorne	fiction	false	1850
-Bowling Alone	Robert D. Putnam	nonfiction	false	2000
+Bowling Alone	Robert D. Putnam	nonfiction	true	2000
 The Dream Machine	Mitchell Waldrop	nonfiction	true	2001
 The Art of Doing Science and Engineering	Richard W. Hamming	nonfiction	true	1997
 The Innovator's Dilemma	Clayton Christensen	nonfiction	true	1997
